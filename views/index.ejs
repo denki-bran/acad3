@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=1"  />
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <link href="/css/index.css" rel="stylesheet" type="text/css"/>
+    <title>Index</title>
+</head>
+<body>
+<div id="wrapper">
+    <h1>Aaron Tei</h1>
+    <h2>From data, Beyond data</h2>
+    <p>
+        <a href="javascript:conDiv1()">Reference</a>
+    </p>
+    <div id="hiddenBoxRef" style="display:none;">
+        <input type="text" class="doi" id="doiInput1" name="searchValue" placeholder="Input DOI"/>
+        <input type="submit" class="searchButton" onclick="refer()" value="SUBMIT"/>
+    </div>
+    <p>
+        <a href="javascript:conDiv2()">Citation</a>
+    </p>
+    <div id="hiddenBoxCit" style="display:none;">
+        <input type="text" class="doi" id="doiInput2" name="searchValue" placeholder="Input DOI"/>
+        <input type="submit" class="searchButton" onclick="cited()" value="SUBMIT"/>
+    </div>
+    <p>
+        <a href="javascript:void(0)">Document</a>
+    </p>
+</div>
+</body>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<script src="/js/fe/script.js"></script>
+</html>

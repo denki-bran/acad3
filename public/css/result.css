@@ -1,0 +1,64 @@
+
+.content{
+    margin-top:52px;
+    margin-left:0.75em;
+    margin-right:0.75em;
+    margin-bottom:45px;
+}
+
+.searchResults{
+    margin-top:0.625em;
+}
+
+.searchResultsNumber{
+    color:#999999;
+    font-size:0.6875em;
+}
+
+.resultTitle{
+    font-size:1em;
+
+}
+
+.resultNameAndUseful{
+    margin-top:0.3em;
+    min-height: 16px;
+}
+
+.resultName{
+    color:#999999;
+    font-size:0.6875em;
+    float:left;
+    width:100%;
+}
+
+.resultUseful{
+    float:right;
+    width:50%;
+}
+
+.resultContent{
+    margin-top:0.625em;
+    font-size:0.9375em;
+    color:#777777;
+    max-height:2.7em;
+    overflow:hidden;
+}
+
+.authName{
+    font-size: 0.5em;
+}
+
+.resultDivide{
+    margin-top:0.9375em;
+}
+
+.appender{
+    width:100%;
+    height:auto;
+}
+
+.appendBox{
+
+}
+

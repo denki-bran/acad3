@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<div class="inputBox">
+    DOI：
+    <input type="text" class="doi" id="doiInput" name="searchValue" />
+    <input type="submit" class="searchButton" onclick="refer()" value="Reference"/>
+    <input type="submit" class="searchButton" onclick="cited()" value="Cited By"/>
+</div>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<!--
+<script type="text/javascript" src="/public/js/script.js"></script>
+-->
+<script>
+    const refer =()=>{
+        let doi=$("#doiInput").val();
+        window.location = "/ref?doi=" + doi;
+    };
+
+    const cited =()=>{
+        let doi=$("#doiInput").val();
+        window.location = "/cit?doi=" + doi;
+    };
+</script>
+
+</body>
+</html>

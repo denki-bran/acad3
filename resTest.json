@@ -1,0 +1,4431 @@
+{
+  "abstracts-retrieval-response": {
+    "coredata": {
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85006446603",
+      "dc:identifier": "SCOPUS_ID:85006446603",
+      "eid": "2-s2.0-85006446603",
+      "pii": "S0261517716302369",
+      "prism:doi": "10.1016/j.tourman.2016.11.020",
+      "dc:title": "Serious games and the gamification of tourism",
+      "prism:aggregationType": "Journal",
+      "srctype": "j",
+      "citedby-count": "0",
+      "prism:publicationName": "Tourism Management",
+      "dc:publisher": "Elsevier Ltd",
+      "source-id": "16547",
+      "prism:issn": "02615177",
+      "prism:volume": "60",
+      "prism:startingPage": "244",
+      "prism:endingPage": "256",
+      "prism:pageRange": "244-256",
+      "prism:coverDate": "2017-06-01",
+      "dc:creator": {
+        "author": [
+          {
+            "@_fa": "true",
+            "@auid": "35742522100",
+            "@seq": "1",
+            "ce:initials": "F.",
+            "ce:indexed-name": "Xu F.",
+            "ce:surname": "Xu",
+            "ce:given-name": "Feifei",
+            "preferred-name": {
+              "ce:initials": "F.",
+              "ce:indexed-name": "Xu F.",
+              "ce:surname": "Xu",
+              "ce:given-name": "Feifei"
+            },
+            "author-url": "https://api.elsevier.com/content/author/author_id/35742522100",
+            "affiliation": {
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005244",
+              "@id": "60005244"
+            }
+          }
+        ]
+      },
+      "dc:description": "© 2016 Elsevier Ltd Gamification has become a focus of attention in an increasing number of fields including business, education, and health care. Through a wide range of applications and support functions, its potential for the tourism industry is significant. Gamification of tourism can contribute to a more rewarding interactions and higher level of satisfaction, as well as increase brand awareness and loyalty to the destination. As one of the first attempts to conceptualize gamification of tourism, this paper examines gaming in general terms and the application of it in specific tourism fields. It identifies game design elements that can contribute to a meaningful gamification. A few cases of best practices are presented to show how this innovative concept can benefit tourism marketing. Implications for tourism marketing and management are discussed as well as future research recommendations.",
+      "intid": "85006446603",
+      "link": [
+        {
+          "@_fa": "true",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85006446603",
+          "@rel": "self"
+        },
+        {
+          "@_fa": "true",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85006446603&amp;origin=inward",
+          "@rel": "scopus"
+        },
+        {
+          "@_fa": "true",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85006446603&amp;origin=inward",
+          "@rel": "scopus-citedby"
+        }
+      ]
+    },
+    "affiliation": [
+      {
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029336",
+        "@id": "60029336",
+        "affilname": "Bournemouth University",
+        "affiliation-city": "Bournemouth",
+        "affiliation-country": "United Kingdom"
+      },
+      {
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005244",
+        "@id": "60005244",
+        "affilname": "Southeast University",
+        "affiliation-city": "Nanjing",
+        "affiliation-country": "China"
+      }
+    ],
+    "authors": {
+      "author": [
+        {
+          "@_fa": "true",
+          "@auid": "35742522100",
+          "@seq": "1",
+          "ce:initials": "F.",
+          "ce:indexed-name": "Xu F.",
+          "ce:surname": "Xu",
+          "ce:given-name": "Feifei",
+          "preferred-name": {
+            "ce:initials": "F.",
+            "ce:indexed-name": "Xu F.",
+            "ce:surname": "Xu",
+            "ce:given-name": "Feifei"
+          },
+          "author-url": "https://api.elsevier.com/content/author/author_id/35742522100",
+          "affiliation": {
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005244",
+            "@id": "60005244"
+          }
+        },
+        {
+          "@_fa": "true",
+          "@auid": "6603014980",
+          "@seq": "2",
+          "ce:initials": "D.",
+          "ce:indexed-name": "Buhalis D.",
+          "ce:surname": "Buhalis",
+          "ce:given-name": "Dimitrios",
+          "preferred-name": {
+            "ce:initials": "D.",
+            "ce:indexed-name": "Buhalis D.",
+            "ce:surname": "Buhalis",
+            "ce:given-name": "Dimitrios"
+          },
+          "author-url": "https://api.elsevier.com/content/author/author_id/6603014980",
+          "affiliation": {
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029336",
+            "@id": "60029336"
+          }
+        },
+        {
+          "@_fa": "true",
+          "@auid": "55948271900",
+          "@seq": "3",
+          "ce:initials": "J.",
+          "ce:indexed-name": "Weber J.",
+          "ce:surname": "Weber",
+          "ce:given-name": "Jessika",
+          "preferred-name": {
+            "ce:initials": "J.",
+            "ce:indexed-name": "Weber J.",
+            "ce:surname": "Weber",
+            "ce:given-name": "Jessika"
+          },
+          "author-url": "https://api.elsevier.com/content/author/author_id/55948271900",
+          "affiliation": {
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029336",
+            "@id": "60029336"
+          }
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Engagement"
+        },
+        {
+          "@_fa": "true",
+          "$": "Gamification"
+        },
+        {
+          "@_fa": "true",
+          "$": "Loyalty"
+        },
+        {
+          "@_fa": "true",
+          "$": "Serious games"
+        },
+        {
+          "@_fa": "true",
+          "$": "Tourism experiences"
+        }
+      ]
+    },
+    "idxterms": null,
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "@abbrev": "SOCI",
+          "@code": "3303",
+          "$": "Development"
+        },
+        {
+          "@_fa": "true",
+          "@abbrev": "SOCI",
+          "@code": "3313",
+          "$": "Transportation"
+        },
+        {
+          "@_fa": "true",
+          "@abbrev": "BUSI",
+          "@code": "1409",
+          "$": "Tourism, Leisure and Hospitality Management"
+        },
+        {
+          "@_fa": "true",
+          "@abbrev": "BUSI",
+          "@code": "1408",
+          "$": "Strategy and Management"
+        }
+      ]
+    },
+    "item": {
+      "ait:process-info": {
+        "ait:date-delivered": {
+          "@day": "04",
+          "@month": "01",
+          "@timestamp": "2017-01-04T01:37:14.000014+00:00",
+          "@year": "2017"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@month": "06",
+          "@year": "2017"
+        },
+        "ait:status": {
+          "@stage": "S300",
+          "@state": "update",
+          "@type": "core"
+        }
+      },
+      "bibrecord": {
+        "item-info": {
+          "copyright": {
+            "@type": "Elsevier",
+            "$": "Copyright 2016 Elsevier B.V., All rights reserved."
+          },
+          "itemidlist": {
+            "ce:pii": "S0261517716302369",
+            "ce:doi": "10.1016/j.tourman.2016.11.020",
+            "itemid": [
+              {
+                "@idtype": "PUI",
+                "$": "613712245"
+              },
+              {
+                "@idtype": "CAR-ID",
+                "$": "659184192"
+              },
+              {
+                "@idtype": "GEO",
+                "$": "5060653"
+              },
+              {
+                "@idtype": "SCP",
+                "$": "85006446603"
+              },
+              {
+                "@idtype": "SGR",
+                "$": "85006446603"
+              }
+            ]
+          },
+          "history": {
+            "date-created": {
+              "@day": "22",
+              "@month": "12",
+              "@timestamp": "BST 14:30:43",
+              "@year": "2016"
+            }
+          },
+          "dbcollection": [
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ]
+        },
+        "head": {
+          "citation-info": {
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Engagement"
+                },
+                {
+                  "$": "Gamification"
+                },
+                {
+                  "$": "Loyalty"
+                },
+                {
+                  "$": "Serious games"
+                },
+                {
+                  "$": "Tourism experiences"
+                }
+              ]
+            }
+          },
+          "citation-title": "Serious games and the gamification of tourism",
+          "author-group": [
+            {
+              "author": {
+                "@auid": "35742522100",
+                "@seq": "1",
+                "@type": "auth",
+                "ce:initials": "F.",
+                "ce:indexed-name": "Xu F.",
+                "ce:surname": "Xu",
+                "ce:given-name": "Feifei",
+                "preferred-name": {
+                  "ce:initials": "F.",
+                  "ce:indexed-name": "Xu F.",
+                  "ce:surname": "Xu",
+                  "ce:given-name": "Feifei"
+                },
+                "ce:e-address": {
+                  "@type": "email",
+                  "$": "feifeixu@seu.edu.cn"
+                }
+              },
+              "affiliation": {
+                "@afid": "60005244",
+                "@country": "chn",
+                "@dptid": "113690762",
+                "organization": [
+                  {
+                    "$": "School of Humanities"
+                  },
+                  {
+                    "$": "Southeast University"
+                  }
+                ],
+                "city": "Nanjing",
+                "postal-code": "210096",
+                "country": "China"
+              }
+            },
+            {
+              "author": [
+                {
+                  "@auid": "6603014980",
+                  "@seq": "2",
+                  "@type": "auth",
+                  "ce:initials": "D.",
+                  "ce:indexed-name": "Buhalis D.",
+                  "ce:surname": "Buhalis",
+                  "ce:given-name": "Dimitrios",
+                  "preferred-name": {
+                    "ce:initials": "D.",
+                    "ce:indexed-name": "Buhalis D.",
+                    "ce:surname": "Buhalis",
+                    "ce:given-name": "Dimitrios"
+                  },
+                  "ce:e-address": {
+                    "@type": "email",
+                    "$": "dbuhalis@bournemouth.ac.uk"
+                  }
+                },
+                {
+                  "@auid": "55948271900",
+                  "@seq": "3",
+                  "@type": "auth",
+                  "ce:initials": "J.",
+                  "ce:indexed-name": "Weber J.",
+                  "ce:surname": "Weber",
+                  "ce:given-name": "Jessika",
+                  "preferred-name": {
+                    "ce:initials": "J.",
+                    "ce:indexed-name": "Weber J.",
+                    "ce:surname": "Weber",
+                    "ce:given-name": "Jessika"
+                  },
+                  "ce:e-address": {
+                    "@type": "email",
+                    "$": "jweber@bournemouth.ac.uk"
+                  }
+                }
+              ],
+              "affiliation": {
+                "@afid": "60029336",
+                "@country": "gbr",
+                "@dptid": "104485522",
+                "organization": [
+                  {
+                    "$": "School of Tourism"
+                  },
+                  {
+                    "$": "Bournemouth University"
+                  }
+                ],
+                "city": "Poole",
+                "postal-code": "BH12 5BB",
+                "country": "United Kingdom"
+              }
+            }
+          ],
+          "correspondence": {
+            "person": {
+              "ce:initials": "F.",
+              "ce:indexed-name": "Xu F.",
+              "ce:surname": "Xu",
+              "ce:given-name": "Feifei"
+            },
+            "affiliation": {
+              "@country": "chn",
+              "organization": [
+                {
+                  "$": "School of Humanities"
+                },
+                {
+                  "$": "Southeast University"
+                }
+              ],
+              "city": "Nanjing",
+              "postal-code": "210096",
+              "country": "China"
+            },
+            "ce:e-address": {
+              "@type": "email",
+              "$": "feifeixu@seu.edu.cn"
+            }
+          },
+          "abstracts": "© 2016 Elsevier Ltd Gamification has become a focus of attention in an increasing number of fields including business, education, and health care. Through a wide range of applications and support functions, its potential for the tourism industry is significant. Gamification of tourism can contribute to a more rewarding interactions and higher level of satisfaction, as well as increase brand awareness and loyalty to the destination. As one of the first attempts to conceptualize gamification of tourism, this paper examines gaming in general terms and the application of it in specific tourism fields. It identifies game design elements that can contribute to a meaningful gamification. A few cases of best practices are presented to show how this innovative concept can benefit tourism marketing. Implications for tourism marketing and management are discussed as well as future research recommendations.",
+          "source": {
+            "@country": "gbr",
+            "@srcid": "16547",
+            "@type": "j",
+            "sourcetitle": "Tourism Management",
+            "sourcetitle-abbrev": "Tour. Manage.",
+            "translated-sourcetitle": {
+              "@xml:lang": "eng",
+              "$": "Tourism Management"
+            },
+            "issn": {
+              "@type": "print",
+              "$": "02615177"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "60"
+              },
+              "pagerange": {
+                "@first": "244",
+                "@last": "256"
+              }
+            },
+            "publicationyear": {
+              "@first": "2017"
+            },
+            "publicationdate": {
+              "year": "2017",
+              "month": "06",
+              "day": "01",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "1 June 2017"
+              }
+            },
+            "website": {
+              "ce:e-address": {
+                "@type": "email",
+                "$": "www.elsevier.com/inca/publications/store/3/0/4/7/2/"
+              }
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            }
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "3303"
+                    },
+                    {
+                      "$": "3313"
+                    },
+                    {
+                      "$": "1409"
+                    },
+                    {
+                      "$": "1408"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "SOCI"
+                    },
+                    {
+                      "$": "BUSI"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "97",
+            "reference": [
+              {
+                "@id": "1",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Advergaming Developer's Guide: Using macromedia flash MX 2004 and director MX"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "77749272535"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "ce:indexed-name": "Afshar R.",
+                        "ce:surname": "Afshar"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Jones C.",
+                        "ce:surname": "Jones"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Banerjee D.",
+                        "ce:surname": "Banerjee"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-text": "Charles River Media Hingham, MA"
+                },
+                "ref-fulltext": "Afshar, R., Jones, C., Banerjee, D., Advergaming Developer's Guide: Using macromedia flash MX 2004 and director MX. 2004, Charles River Media, Hingham, MA."
+              },
+              {
+                "@id": "2",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Analysis and application of gamification"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006340597"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.F.",
+                        "ce:indexed-name": "Aparicio A.F.",
+                        "ce:surname": "Aparicio"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.L.G.",
+                        "ce:indexed-name": "Vela F.L.G.",
+                        "ce:surname": "Vela"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.L.G.",
+                        "ce:indexed-name": "Sanchez J.L.G.",
+                        "ce:surname": "Sánchez"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.L.I.",
+                        "ce:indexed-name": "Montes J.L.I.",
+                        "ce:surname": "Montes"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the13th international conference on interacción persona-ordenador",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1s7"
+                    }
+                  },
+                  "ref-text": "ACM Elche, Spain Presented at INTERACCION'12"
+                },
+                "ref-fulltext": "Aparicio, A.F., Vela, F.L.G., Sánchez, J.L.G., Montes, J.L.I., Analysis and application of gamification. Proceedings of the13th international conference on interacción persona-ordenador, 2012, ACM, Elche, Spain, 1s7 Presented at INTERACCION'12."
+              },
+              {
+                "@id": "3",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The study of games"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0004005570"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.M.",
+                        "ce:indexed-name": "Avedon E.M.",
+                        "ce:surname": "Avedon"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "ce:indexed-name": "Sutton-Smith B.",
+                        "ce:surname": "Sutton-Smith"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "1971"
+                  },
+                  "ref-text": "John Wiley New York"
+                },
+                "ref-fulltext": "Avedon, E.M., Sutton-Smith, B., The study of games. 1971, John Wiley, New York."
+              },
+              {
+                "@id": "4",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Serious games integration in companies: A research and application framework"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84867029834"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Azadegan A.",
+                        "ce:surname": "Azadegan"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.C.K.H.",
+                        "ce:indexed-name": "Riedel J.C.K.H.",
+                        "ce:surname": "Riedel"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the2012 IEEE12th international conference on advanced learning technologies",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "485",
+                      "@last": "487"
+                    }
+                  },
+                  "ref-text": "IEEE Rome, Italy Presented at ICALT2012"
+                },
+                "ref-fulltext": "Azadegan, A., Riedel, J.C.K.H., Serious games integration in companies: A research and application framework. Proceedings of the2012 IEEE12th international conference on advanced learning technologies, 2012, IEEE, Rome, Italy, 485–487 Presented at ICALT2012."
+              },
+              {
+                "@id": "5",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006438246"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "ce:indexed-name": "Barata G.",
+                        "ce:surname": "Barata"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "ce:indexed-name": "Gama S.",
+                        "ce:surname": "Gama"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Jorge J.",
+                        "ce:surname": "Jorge"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Goncalves D.",
+                        "ce:surname": "Goncalves"
+                      }
+                    ]
+                  },
+                  "ref-text": "(2013). Engaging engineering students with gamification. VS gaming conference proceedings, Bournemouth, UK."
+                },
+                "ref-fulltext": "Barata, G., Gama, S., Jorge, J., &amp; Goncalves, D. (2013). Engaging engineering students with gamification. VS gaming conference proceedings, Bournemouth, UK."
+              },
+              {
+                "@id": "6",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Measuring leisure motivation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006334151"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Beard J.",
+                        "ce:surname": "Beard"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.G.",
+                        "ce:indexed-name": "Ragheb M.G.",
+                        "ce:surname": "Ragheb"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Leisure Research",
+                  "ref-publicationyear": {
+                    "@first": "1983"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "3",
+                      "@volume": "15"
+                    },
+                    "pagerange": {
+                      "@first": "219",
+                      "@last": "228"
+                    }
+                  }
+                },
+                "ref-fulltext": "Beard, J., Ragheb, M.G., Measuring leisure motivation. Journal of Leisure Research 15:3 (1983), 219–228."
+              },
+              {
+                "@id": "7",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Opening new dimensions for e-tourism"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "34347376006"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "ce:indexed-name": "Berger H.",
+                        "ce:surname": "Berger"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "ce:indexed-name": "Dittenbach M.",
+                        "ce:surname": "Dittenbach"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Merkl D.",
+                        "ce:surname": "Merkl"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Bogdanovych A.",
+                        "ce:surname": "Bogdanovych"
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "ce:indexed-name": "Simoff S.",
+                        "ce:surname": "Simoff"
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Sierra C.",
+                        "ce:surname": "Sierra"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of the Reality Society",
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "2-3",
+                      "@volume": "11"
+                    },
+                    "pagerange": {
+                      "@first": "75",
+                      "@last": "87"
+                    }
+                  }
+                },
+                "ref-fulltext": "Berger, H., Dittenbach, M., Merkl, D., Bogdanovych, A., Simoff, S., Sierra, C., Opening new dimensions for e-tourism. Journal of the Reality Society 11:2–3 (2007), 75–87."
+              },
+              {
+                "@id": "8",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Conceptualising smart tourism destination dimensions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84936859518"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "ce:indexed-name": "Boes K.",
+                        "ce:surname": "Boes"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Buhalis D.",
+                        "ce:surname": "Buhalis"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Inversini A.",
+                        "ce:surname": "Inversini"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Information and communication technologies in tourism 2015",
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "391",
+                      "@last": "403"
+                    }
+                  },
+                  "ref-text": "L. Tussyadiah A. Inversini Springer Wien (Proceedings of the International Conference in Lugano. Springer)"
+                },
+                "ref-fulltext": "Boes, K., Buhalis, D., Inversini, A., Conceptualising smart tourism destination dimensions. Tussyadiah, L., Inversini, A., (eds.) Information and communication technologies in tourism 2015, 2015, Springer, Wien, 391–403 (Proceedings of the International Conference in Lugano. Springer)."
+              },
+              {
+                "@id": "9",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006486528"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Bogdanovych A.",
+                        "ce:surname": "Bogdanovych"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "ce:indexed-name": "Esteva N.",
+                        "ce:surname": "Esteva"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "ce:indexed-name": "Gu M.",
+                        "ce:surname": "Gu"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "ce:indexed-name": "Simoff S.",
+                        "ce:surname": "Simoff"
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.L.",
+                        "ce:indexed-name": "Maher M.L.",
+                        "ce:surname": "Maher"
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "G.",
+                        "ce:indexed-name": "Smith G.",
+                        "ce:surname": "Smith"
+                      }
+                    ]
+                  },
+                  "ref-text": "(2007). The role of online travel agents in the experience economy. In Proceedings of the 14th international conference on information technology in tourism ENTER, Ljubljana, Slovenia, January 24–26."
+                },
+                "ref-fulltext": "Bogdanovych, A., Esteva, N., Gu, M., Simoff, S., Maher, M. L., &amp; Smith G. (2007). The role of online travel agents in the experience economy. In Proceedings of the 14th international conference on information technology in tourism ENTER, Ljubljana, Slovenia, January 24–26."
+              },
+              {
+                "@id": "10",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Persuasive Games: The Expressive Power of Videogames"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "34247619312"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "I.",
+                      "ce:indexed-name": "Bogost I.",
+                      "ce:surname": "Bogost"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-text": "MIT Press"
+                },
+                "ref-fulltext": "Bogost, I., Persuasive Games: The Expressive Power of Videogames. 2007, MIT Press."
+              },
+              {
+                "@id": "11",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Play: How it shapes the brain, open the imagination and invigorates the soul"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "77952165281"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.L.",
+                        "ce:indexed-name": "Brown S.L.",
+                        "ce:surname": "Brown"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.C.",
+                        "ce:indexed-name": "Vaughn C.C.",
+                        "ce:surname": "Vaughn"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-text": "A Very Publishing Group New York, NY"
+                },
+                "ref-fulltext": "Brown, S.L., Vaughn, C.C., Play: How it shapes the brain, open the imagination and invigorates the soul. 2009, A Very Publishing Group, New York, NY."
+              },
+              {
+                "@id": "12",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Progress in tourism management: Twenty years on and 10 years after the internet: The state of eTourism research"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "41549084672"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Buhalis D.",
+                        "ce:surname": "Buhalis"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "ce:indexed-name": "Law R.",
+                        "ce:surname": "Law"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tourism Management",
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "4",
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "609",
+                      "@last": "623"
+                    }
+                  }
+                },
+                "ref-fulltext": "Buhalis, D., Law, R., Progress in tourism management: Twenty years on and 10 years after the internet: The state of eTourism research. Tourism Management 29:4 (2008), 609–623."
+              },
+              {
+                "@id": "13",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamification in Tourism, designing memorable experiences"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006396169"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "ce:indexed-name": "Bulencer P.",
+                        "ce:surname": "Bulencer"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "ce:indexed-name": "Egger R.",
+                        "ce:surname": "Egger"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-text": "Books on Demand: Norderstedt Bod"
+                },
+                "ref-fulltext": "Bulencer, P., Egger, R., Gamification in Tourism, designing memorable experiences. 2015, Books on Demand: Norderstedt, Bod."
+              },
+              {
+                "@id": "14",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamify: How gamification motivates people to do extraordinary things"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84929015589"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "B.",
+                      "ce:indexed-name": "Burke B.",
+                      "ce:surname": "Burke"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-text": "Bibliomotion Brookline, MA"
+                },
+                "ref-fulltext": "Burke, B., Gamify: How gamification motivates people to do extraordinary things. 2014, Bibliomotion, Brookline, MA."
+              },
+              {
+                "@id": "15",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Design of an mHealth app for the self-management of adolescent type 1 diabetes: A pilot study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84864204176"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.A.",
+                        "ce:indexed-name": "Cafazzo J.A.",
+                        "ce:surname": "Cafazzo"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "ce:indexed-name": "Casselman M.",
+                        "ce:surname": "Casselman"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "ce:indexed-name": "Hamming N.",
+                        "ce:surname": "Hamming"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.K.",
+                        "ce:indexed-name": "Katzman D.K.",
+                        "ce:surname": "Katzman"
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.R.",
+                        "ce:indexed-name": "Palmert M.R.",
+                        "ce:surname": "Palmert"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Medical Internet Research",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "3",
+                      "@volume": "14"
+                    }
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "@type": "email",
+                      "$": "http://dx.doi.org/10.2196/jmir.2058"
+                    }
+                  }
+                },
+                "ref-fulltext": "Cafazzo, J.A., Casselman, M., Hamming, N., Katzman, D.K., Palmert, M.R., Design of an mHealth app for the self-management of adolescent type 1 diabetes: A pilot study. Journal of Medical Internet Research, 14(3), 2012 http://dx.doi.org/10.2196/jmir.2058."
+              },
+              {
+                "@id": "16",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Mobile advergames in tourism marketing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "78649251980"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "E.",
+                      "ce:indexed-name": "Celtek E.",
+                      "ce:surname": "Celtek"
+                    }
+                  },
+                  "ref-sourcetitle": "Journal of Vacation Marketing",
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "4",
+                      "@volume": "16"
+                    },
+                    "pagerange": {
+                      "@first": "267",
+                      "@last": "281"
+                    }
+                  }
+                },
+                "ref-fulltext": "Celtek, E., Mobile advergames in tourism marketing. Journal of Vacation Marketing 16:4 (2010), 267–281."
+              },
+              {
+                "@id": "17",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Digital marketing, strategy, implementation and practice"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006423674"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Chaffey D.",
+                        "ce:surname": "Chaffey"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "ce:indexed-name": "Ellis-Chadwick F.",
+                        "ce:surname": "Ellis-Chadwick"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-text": "5thed. Pearson UK"
+                },
+                "ref-fulltext": "Chaffey, D., Ellis-Chadwick, F., Digital marketing, strategy, implementation and practice. 5thed., 2012, Pearson, UK."
+              },
+              {
+                "@id": "18",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "An interpreted demonstration of computer game design"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "1442298321"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "C.",
+                      "ce:indexed-name": "Clanton C.",
+                      "ce:surname": "Clanton"
+                    }
+                  },
+                  "ref-sourcetitle": "Chi 1998 conference Summary in human Factors in computing systems",
+                  "ref-publicationyear": {
+                    "@first": "1998"
+                  },
+                  "ref-text": "ACM Los Angeles, California, USA"
+                },
+                "ref-fulltext": "Clanton, C., An interpreted demonstration of computer game design. Chi 1998 conference Summary in human Factors in computing systems, 1998, ACM, Los Angeles, California, USA."
+              },
+              {
+                "@id": "19",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamification in tourism: Analysis of Brazil quest game"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006335402"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Correa C.",
+                        "ce:surname": "Correa"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Kitano C.",
+                        "ce:surname": "Kitano"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "The National Council for Scientific and Technological Development",
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "@type": "email",
+                      "$": "http://3ws1wk1wkqsk36zmd6ocne81.wpengine.netdna-cdn.com/files/2015/02/SP05_MobileSession_Correa.pdf"
+                    }
+                  },
+                  "ref-text": "available from, (Accessed 9 December 2016)"
+                },
+                "ref-fulltext": "Correa, C., Kitano, C., Gamification in tourism: Analysis of Brazil quest game. The National Council for Scientific and Technological Development, 2015 available from http://3ws1wk1wkqsk36zmd6ocne81.wpengine.netdna-cdn.com/files/2015/02/SP05_MobileSession_Correa.pdf, (Accessed 9 December 2016)."
+              },
+              {
+                "@id": "20",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006254986"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "C.",
+                      "ce:indexed-name": "Crawford C.",
+                      "ce:surname": "Crawford"
+                    }
+                  },
+                  "ref-sourcetitle": "The art of computer game design",
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-text": "2nd ed."
+                },
+                "ref-fulltext": "Crawford, C., The art of computer game design, 2nd ed., 2011."
+              },
+              {
+                "@id": "21",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Flow, the encyclopaedia of tourism and recreation in marine environments: CABI"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006504008"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "M.",
+                      "ce:indexed-name": "Csikszentmihalyi M.",
+                      "ce:surname": "Csikszentmihalyi"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  }
+                },
+                "ref-fulltext": "Csikszentmihalyi, M., Flow, the encyclopaedia of tourism and recreation in marine environments: CABI. 2008."
+              },
+              {
+                "@id": "22",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamification by Design: Implementing game mechanics in weband mobile apps"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84858179538"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Cunningham C.",
+                        "ce:surname": "Cunningham"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "ce:indexed-name": "Zichermann G.",
+                        "ce:surname": "Zichermann"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-text": "O'Reilly Media Sebastopol, CA"
+                },
+                "ref-fulltext": "Cunningham, C., Zichermann, G., Gamification by Design: Implementing game mechanics in weband mobile apps. 2011, O'Reilly Media, Sebastopol, CA."
+              },
+              {
+                "@id": "23",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0033220501"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.L.",
+                        "ce:indexed-name": "Deci E.L.",
+                        "ce:surname": "Deci"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "ce:indexed-name": "Koestner R.",
+                        "ce:surname": "Koestner"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.M.",
+                        "ce:indexed-name": "Ryan R.M.",
+                        "ce:surname": "Ryan"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Psychological Bulletin",
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "125"
+                    },
+                    "pagerange": {
+                      "@first": "627"
+                    }
+                  }
+                },
+                "ref-fulltext": "Deci, E.L., Koestner, R., Ryan, R.M., A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation. Psychological Bulletin, 125, 1999, 627."
+              },
+              {
+                "@id": "24",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The effect of virtual achievements on student engagement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006486555"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "P.",
+                      "ce:indexed-name": "Denny P.",
+                      "ce:surname": "Denny"
+                    }
+                  },
+                  "ref-sourcetitle": "Proceedings of the SIGCHI conference on human factors in computing systems",
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "763",
+                      "@last": "772"
+                    }
+                  },
+                  "ref-text": "ACM Presented at CHI13"
+                },
+                "ref-fulltext": "Denny, P., The effect of virtual achievements on student engagement. Proceedings of the SIGCHI conference on human factors in computing systems, 2013, ACM, 763–772 Presented at CHI13."
+              },
+              {
+                "@id": "25",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "From game design elements to gamefulness: Defining “Gamification”"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006385372"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "ce:indexed-name": "Deterding S.",
+                        "ce:surname": "Deterding"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Dixon D.",
+                        "ce:surname": "Dixon"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "ce:indexed-name": "Khaled R.",
+                        "ce:surname": "Khaled"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.E.",
+                        "ce:indexed-name": "Nacke L.E.",
+                        "ce:surname": "Nacke"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mindtrek 2011 proceedings",
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-text": "ACM Press Tampere, Finland"
+                },
+                "ref-fulltext": "Deterding, S., Dixon, D., Khaled, R., Nacke, L.E., From game design elements to gamefulness: Defining “Gamification”. Mindtrek 2011 proceedings, 2011, ACM Press, Tampere, Finland."
+              },
+              {
+                "@id": "26",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamifying learning experiences: Practicalimplications and outcomes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84873847147"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Dominguez A.",
+                        "ce:surname": "Domínguez"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Saenz-de-Navarrete J.",
+                        "ce:surname": "Saenz-de-Navarrete"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "ce:indexed-name": "de-Marcos L.",
+                        "ce:surname": "de-Marcos"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "ce:indexed-name": "Fernandez-Sanz L.",
+                        "ce:surname": "Fernández-Sanz"
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Pages C.",
+                        "ce:surname": "Pagés"
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.-J.",
+                        "ce:indexed-name": "Martinez-Herraiz J.-J.",
+                        "ce:surname": "Martínez-Herráiz"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Computer Education",
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "63"
+                    },
+                    "pagerange": {
+                      "@first": "380",
+                      "@last": "392"
+                    }
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "@type": "email",
+                      "$": "http://dx.doi.org/10.1016/j"
+                    }
+                  },
+                  "ref-text": "compedu.2012.12.020"
+                },
+                "ref-fulltext": "Domínguez, A., Saenz-de-Navarrete, J., de-Marcos, L., Fernández-Sanz, L., Pagés, C., Martínez-Herráiz, J.-J., Gamifying learning experiences: Practicalimplications and outcomes. Computer Education 63 (2013), 380–392 http://dx.doi.org/10.1016/j compedu.2012.12.020."
+              },
+              {
+                "@id": "27",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The role of affective factors on perceived cruise vacation value"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "10444259018"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "ce:indexed-name": "Dunman T.",
+                        "ce:surname": "Dunman"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.S.",
+                        "ce:indexed-name": "Mattila A.S.",
+                        "ce:surname": "Mattila"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tourism Management",
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26"
+                    },
+                    "pagerange": {
+                      "@first": "311",
+                      "@last": "323"
+                    }
+                  }
+                },
+                "ref-fulltext": "Dunman, T., Mattila, A.S., The role of affective factors on perceived cruise vacation value. Tourism Management 26 (2005), 311–323."
+              },
+              {
+                "@id": "28",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Enterprise gamification for employee engagement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84906885269"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "Z.",
+                      "ce:indexed-name": "Epstein Z.",
+                      "ce:surname": "Epstein"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "@type": "email",
+                      "$": "http://enterprise-gamification.com/attachments/137_Enterprise%20Gamification%20Paper%20-%20Zoe%20Epstein%20-%20Ithaca%20College.pdf"
+                    }
+                  },
+                  "ref-text": "Ithaca College Accessed 20.05.13"
+                },
+                "ref-fulltext": "Epstein, Z., Enterprise gamification for employee engagement. 2013, Ithaca College http://enterprise-gamification.com/attachments/137_Enterprise%20Gamification%20Paper%20-%20Zoe%20Epstein%20-%20Ithaca%20College.pdf Accessed 20.05.13."
+              },
+              {
+                "@id": "29",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Player-centred game design: Experiences in using scenario study to inform mobile game design"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "27744469712"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "ce:indexed-name": "Ermi L.",
+                        "ce:surname": "Ermi"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "ce:indexed-name": "Mayra F.",
+                        "ce:surname": "Mayra"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "The International Journal of Computer Game Research",
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1",
+                      "@volume": "5"
+                    }
+                  }
+                },
+                "ref-fulltext": "Ermi, L., Mayra, F., Player-centred game design: Experiences in using scenario study to inform mobile game design. The International Journal of Computer Game Research, 5(1), 2004."
+              },
+              {
+                "@id": "30",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Emotion and environment: Visitors extraordinary experiences along the dalton highway in Alaska"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "34250783637"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.E.",
+                        "ce:indexed-name": "Farber M.E.",
+                        "ce:surname": "Farber"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.E.",
+                        "ce:indexed-name": "Hall T.E.",
+                        "ce:surname": "Hall"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Leisure Research",
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "2",
+                      "@volume": "39"
+                    },
+                    "pagerange": {
+                      "@first": "248",
+                      "@last": "270"
+                    }
+                  }
+                },
+                "ref-fulltext": "Farber, M.E., Hall, T.E., Emotion and environment: Visitors extraordinary experiences along the dalton highway in Alaska. Journal of Leisure Research 39:2 (2007), 248–270."
+              },
+              {
+                "@id": "31",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Foundation of the hellenic world"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006329518"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "@type": "email",
+                      "$": "http://www.fhw.gr"
+                    }
+                  },
+                  "ref-text": "Foundation of the Hellenic World, Accessed 11.08.16"
+                },
+                "ref-fulltext": "Foundation of the Hellenic World, Foundation of the hellenic world. 2016 http://www.fhw.gr Accessed 11.08.16."
+              },
+              {
+                "@id": "32",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "28 major trend for 2012 and beyond: Part 2"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84862248820"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "T.",
+                      "ce:indexed-name": "Frey T.",
+                      "ce:surname": "Frey"
+                    }
+                  },
+                  "ref-sourcetitle": "Journal of Enviromental Health",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "9",
+                      "@volume": "74"
+                    },
+                    "pagerange": {
+                      "@first": "39",
+                      "@last": "43"
+                    }
+                  }
+                },
+                "ref-fulltext": "Frey, T., 28 major trend for 2012 and beyond: Part 2. Journal of Enviromental Health 74:9 (2012), 39–43."
+              },
+              {
+                "@id": "33",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gaming on the move: Urban experience as a new paradigm for mobile pervasive game design"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "77949267078"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Gentes A.",
+                        "ce:surname": "Gentes"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Guyot-Mbodji A.",
+                        "ce:surname": "Guyot-Mbodji"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.",
+                        "ce:indexed-name": "Demeure I.",
+                        "ce:surname": "Demeure"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Multimedia Systems",
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16"
+                    },
+                    "pagerange": {
+                      "@first": "43",
+                      "@last": "55"
+                    }
+                  }
+                },
+                "ref-fulltext": "Gentes, A., Guyot-Mbodji, A., Demeure, I., Gaming on the move: Urban experience as a new paradigm for mobile pervasive game design. Multimedia Systems 16 (2010), 43–55."
+              },
+              {
+                "@id": "34",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Utilizing online serious games to facilitate distributed requirements elicitation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84941283640"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "ce:indexed-name": "Ghanbari H.",
+                        "ce:surname": "Ghanbari"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Simila J.",
+                        "ce:surname": "Simila"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Markkula J.",
+                        "ce:surname": "Markkula"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Systems and Software",
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "109"
+                    },
+                    "pagerange": {
+                      "@first": "32",
+                      "@last": "49"
+                    }
+                  }
+                },
+                "ref-fulltext": "Ghanbari, H., Simila, J., Markkula, J., Utilizing online serious games to facilitate distributed requirements elicitation. Journal of Systems and Software 109 (2015), 32–49."
+              },
+              {
+                "@id": "35",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Leveraging gamification in demand dispatch systems"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006340592"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "ce:indexed-name": "Gnauk B.",
+                        "ce:surname": "Gnauk"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "ce:indexed-name": "Dannecker L.",
+                        "ce:surname": "Dannecker"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "ce:indexed-name": "Hahmann M.",
+                        "ce:surname": "Hahmann"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the 2012 joint EDBT/ICDTWorkshops",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "103",
+                      "@last": "110"
+                    }
+                  },
+                  "ref-text": "ACM Berlin, Germany Presented atEDBT-ICDT'12"
+                },
+                "ref-fulltext": "Gnauk, B., Dannecker, L., Hahmann, M., Leveraging gamification in demand dispatch systems. Proceedings of the 2012 joint EDBT/ICDTWorkshops, 2012, ACM, Berlin, Germany, 103–110 Presented atEDBT-ICDT'12."
+              },
+              {
+                "@id": "36",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Conceptualizing the creative tourist class: Technology, mobility, and tourism experiences"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "79959851001"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "U.",
+                        "ce:indexed-name": "Gretzel U.",
+                        "ce:surname": "Gretzel"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "ce:indexed-name": "Jamal T.",
+                        "ce:surname": "Jamal"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tourism Analysis",
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "4",
+                      "@volume": "14"
+                    },
+                    "pagerange": {
+                      "@first": "471",
+                      "@last": "481"
+                    }
+                  }
+                },
+                "ref-fulltext": "Gretzel, U., Jamal, T., Conceptualizing the creative tourist class: Technology, mobility, and tourism experiences. Tourism Analysis 14:4 (2009), 471–481."
+              },
+              {
+                "@id": "37",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Virtual reality and applications for tourism"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "77952322763"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "D.A.",
+                      "ce:indexed-name": "Guttentag D.A.",
+                      "ce:surname": "Guttentag"
+                    }
+                  },
+                  "ref-sourcetitle": "Tourism Management",
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "5",
+                      "@volume": "31"
+                    },
+                    "pagerange": {
+                      "@first": "637",
+                      "@last": "651"
+                    }
+                  }
+                },
+                "ref-fulltext": "Guttentag, D.A., Virtual reality and applications for tourism. Tourism Management 31:5 (2010), 637–651."
+              },
+              {
+                "@id": "38",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Transforming homo economicus into homo ludens: A field experiment on gamification in a utilitarian peer-to-peer trading service"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84883135229"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "J.",
+                      "ce:indexed-name": "Hamari J.",
+                      "ce:surname": "Hamari"
+                    }
+                  },
+                  "ref-sourcetitle": "Electric Commerse Research and Applications",
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "12"
+                    }
+                  }
+                },
+                "ref-fulltext": "Hamari, J., Transforming homo economicus into homo ludens: A field experiment on gamification in a utilitarian peer-to-peer trading service. Electric Commerse Research and Applications, 12, 2013, 10.1016/j.elerap.2013.01.004."
+              },
+              {
+                "@id": "39",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006367453"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "B.",
+                      "ce:indexed-name": "Hay B.",
+                      "ce:surname": "Hay"
+                    }
+                  },
+                  "ref-text": "(2008). Where the bloody hell are we? Fantasy tourism and second life. In Proceedings of the CAUTHE 2008 conference."
+                },
+                "ref-fulltext": "Hay, B. (2008). Where the bloody hell are we? Fantasy tourism and second life. In Proceedings of the CAUTHE 2008 conference."
+              },
+              {
+                "@id": "40",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Science and industry: Sharing knowledge for innovation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84896357468"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "ce:indexed-name": "Hoarau H.",
+                        "ce:surname": "Hoarau"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Kline C.",
+                        "ce:surname": "Kline"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Annals of Tourism Research",
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "46"
+                    },
+                    "pagerange": {
+                      "@first": "44",
+                      "@last": "61"
+                    }
+                  }
+                },
+                "ref-fulltext": "Hoarau, H., Kline, C., Science and industry: Sharing knowledge for innovation. Annals of Tourism Research 46 (2014), 44–61."
+              },
+              {
+                "@id": "41",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The experiential aspects of consumption: Fantasies, feelings and fun"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0002126713"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.B.",
+                        "ce:indexed-name": "Holbrook M.B.",
+                        "ce:surname": "Holbrook"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.C.",
+                        "ce:indexed-name": "Hirschman E.C.",
+                        "ce:surname": "Hirschman"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Consumer Research",
+                  "ref-publicationyear": {
+                    "@first": "1982"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "2",
+                      "@volume": "9"
+                    },
+                    "pagerange": {
+                      "@first": "132",
+                      "@last": "139"
+                    }
+                  }
+                },
+                "ref-fulltext": "Holbrook, M.B., Hirschman, E.C., The experiential aspects of consumption: Fantasies, feelings and fun. Journal of Consumer Research 9:2 (1982), 132–139."
+              },
+              {
+                "@id": "42",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Communication pedometer: A discussion of gamifiedcommunication focused on frequency of smiles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006504379"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "ce:indexed-name": "Hori Y.",
+                        "ce:surname": "Hori"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.M.",
+                        "ce:indexed-name": "Tokuda Y.M.",
+                        "ce:surname": "Tokuda"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "ce:indexed-name": "Miura T.",
+                        "ce:surname": "Miura"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Jiyama A.",
+                        "ce:surname": "Jiyama"
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "ce:indexed-name": "Jirose M.",
+                        "ce:surname": "Jirose"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the 4thaugmented human international conference",
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "206",
+                      "@last": "212"
+                    }
+                  },
+                  "ref-text": "ACM Stuttgart, Germany Presented at AH13"
+                },
+                "ref-fulltext": "Hori, Y., Tokuda, Y.M., Miura, T., Jiyama, A., Jirose, M., Communication pedometer: A discussion of gamifiedcommunication focused on frequency of smiles. Proceedings of the 4thaugmented human international conference, 2013, ACM, Stuttgart, Germany, 206–212 Presented at AH13."
+              },
+              {
+                "@id": "43",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Exploring user acceptance of 3d virtual worlds in travel and tourism marketing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84906701084"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "ce:indexed-name": "Huang Y.",
+                        "ce:surname": "Huang"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.J.",
+                        "ce:indexed-name": "Backman S.J.",
+                        "ce:surname": "Backman"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.F.",
+                        "ce:indexed-name": "Backman K.F.",
+                        "ce:surname": "Backman"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Moore D.",
+                        "ce:surname": "Moore"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tourism Management",
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36"
+                    },
+                    "pagerange": {
+                      "@first": "490",
+                      "@last": "501"
+                    }
+                  }
+                },
+                "ref-fulltext": "Huang, Y., Backman, S.J., Backman, K.F., Moore, D., Exploring user acceptance of 3d virtual worlds in travel and tourism marketing. Tourism Management 36 (2013), 490–501."
+              },
+              {
+                "@id": "44",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006385346"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "ce:indexed-name": "Hunicke R.",
+                        "ce:surname": "Hunicke"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "ce:indexed-name": "Leblanc M.",
+                        "ce:surname": "Leblanc"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "ce:indexed-name": "Zubek R.",
+                        "ce:surname": "Zubek"
+                      }
+                    ]
+                  },
+                  "ref-text": "(2004). MDA: A formal approach to game design and game research. Paper presented at the in proceedings of the challenges in games AI workshop. 19th national conference of artificial intelligence."
+                },
+                "ref-fulltext": "Hunicke, R., Leblanc, M., &amp; Zubek, R. (2004). MDA: A formal approach to game design and game research. Paper presented at the in proceedings of the challenges in games AI workshop. 19th national conference of artificial intelligence."
+              },
+              {
+                "@id": "45",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Defining gamification: A service marketing perspective"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006396162"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "ce:indexed-name": "Huotari K.",
+                        "ce:surname": "Huotari"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Hamiri J.",
+                        "ce:surname": "Hamiri"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the 16th international academic MindTrek conference",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-text": "ACM Tampere, Finland"
+                },
+                "ref-fulltext": "Huotari, K., Hamiri, J., Defining gamification: A service marketing perspective. Proceedings of the 16th international academic MindTrek conference, 2012, ACM, Tampere, Finland."
+              },
+              {
+                "@id": "46",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Brand loyalty: Measurement and management"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0003747358"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Jacoby J.",
+                        "ce:surname": "Jacoby"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.W.",
+                        "ce:indexed-name": "Hestnut R.W.",
+                        "ce:surname": "Hestnut"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "1978"
+                  },
+                  "ref-text": "JohnWiley &amp; Sons New York"
+                },
+                "ref-fulltext": "Jacoby, J., Hestnut, R.W., Brand loyalty: Measurement and management. 1978, JohnWiley &amp; Sons, New York."
+              },
+              {
+                "@id": "47",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Brand loyalty vs. repeat purchasing behavior"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006414547"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Jacoby J.",
+                        "ce:surname": "Jacoby"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.B.",
+                        "ce:indexed-name": "Kyner D.B.",
+                        "ce:surname": "Kyner"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Marketing Research",
+                  "ref-publicationyear": {
+                    "@first": "1973"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1",
+                      "@volume": "10"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "9"
+                    }
+                  }
+                },
+                "ref-fulltext": "Jacoby, J., Kyner, D.B., Brand loyalty vs. repeat purchasing behavior. Journal of Marketing Research 10:1 (1973), 1–9."
+              },
+              {
+                "@id": "48",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Measuring and defining the experience of immersion in games"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "47549099955"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Jennett C.",
+                        "ce:surname": "Jennett"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Cox A.",
+                        "ce:surname": "Cox"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "ce:indexed-name": "Cairns P.",
+                        "ce:surname": "Cairns"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "ce:indexed-name": "Dhoparee S.",
+                        "ce:surname": "Dhoparee"
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Epps A.",
+                        "ce:surname": "Epps"
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "T.",
+                        "ce:indexed-name": "Tijs T.",
+                        "ce:surname": "Tijs"
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "International Journal of Human-Computer Studies",
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "9",
+                      "@volume": "66"
+                    },
+                    "pagerange": {
+                      "@first": "641",
+                      "@last": "661"
+                    }
+                  }
+                },
+                "ref-fulltext": "Jennett, C., Cox, A., Cairns, P., Dhoparee, S., Epps, A., Tijs, T., et al. Measuring and defining the experience of immersion in games. International Journal of Human-Computer Studies 66:9 (2008), 641–661."
+              },
+              {
+                "@id": "49",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006449468"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "J.",
+                      "ce:indexed-name": "Juul J.",
+                      "ce:surname": "Juul"
+                    }
+                  },
+                  "ref-text": "(2003). The game, the player, the world: Looking for a heart of gameness. In Paper presented at the level Up: Digital games research conference proceedings, Utrecht, Netherlands."
+                },
+                "ref-fulltext": "Juul, J. (2003). The game, the player, the world: Looking for a heart of gameness. In Paper presented at the level Up: Digital games research conference proceedings, Utrecht, Netherlands."
+              },
+              {
+                "@id": "50",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The gamification of learning and Instruction: Game based methods and strategies for traning and education"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84870778669"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "K.M.",
+                      "ce:indexed-name": "Kapp K.M.",
+                      "ce:surname": "Kapp"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-text": "Pfeiffer San Francisco, CA"
+                },
+                "ref-fulltext": "Kapp, K.M., The gamification of learning and Instruction: Game based methods and strategies for traning and education. 2012, Pfeiffer, San Francisco, CA."
+              },
+              {
+                "@id": "51",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Development of a scale to measure memorable tourism experience"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "83655164339"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "ce:indexed-name": "Kim H.",
+                        "ce:surname": "Kim"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.R.",
+                        "ce:indexed-name": "Ritchie J.R.",
+                        "ce:surname": "Ritchie"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "ce:indexed-name": "Mccormick B.",
+                        "ce:surname": "Mccormick"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Travel Research",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1",
+                      "@volume": "51"
+                    },
+                    "pagerange": {
+                      "@first": "12",
+                      "@last": "25"
+                    }
+                  }
+                },
+                "ref-fulltext": "Kim, H., Ritchie, J.R., Mccormick, B., Development of a scale to measure memorable tourism experience. Journal of Travel Research 51:1 (2012), 12–25."
+              },
+              {
+                "@id": "52",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Dimensions and determinants of the enjoyment of playing digital games: A three level model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "10244270476"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "C.",
+                      "ce:indexed-name": "Klimmt C.",
+                      "ce:surname": "Klimmt"
+                    }
+                  },
+                  "ref-sourcetitle": "Paper presented at the level Up: Digital games research conference",
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-text": "Utrecht, Netherlands, November 2003"
+                },
+                "ref-fulltext": "Klimmt, C., Dimensions and determinants of the enjoyment of playing digital games: A three level model. Paper presented at the level Up: Digital games research conference, 2003 Utrecht, Netherlands, November 2003."
+              },
+              {
+                "@id": "53",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Pervasive augmented reality games to experience tourism destinations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84906688493"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.T.",
+                        "ce:indexed-name": "Linaza M.T.",
+                        "ce:surname": "Linaza"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Gutierrez A.",
+                        "ce:surname": "Gutierrez"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Garcia A.",
+                        "ce:surname": "Garcia"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Information and communication techonologies in tourism",
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "497",
+                      "@last": "510"
+                    }
+                  },
+                  "ref-text": "X. Zheng I. Tussyadiah Springer"
+                },
+                "ref-fulltext": "Linaza, M.T., Gutierrez, A., Garcia, A., Pervasive augmented reality games to experience tourism destinations. Zheng, X., Tussyadiah, I., (eds.) Information and communication techonologies in tourism, 2014, Springer, 497–510."
+              },
+              {
+                "@id": "54",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamification in consumer marketing - future or fallacy?"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006400333"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "ce:indexed-name": "Lucassen G.",
+                        "ce:surname": "Lucassen"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "ce:indexed-name": "Jasen S.",
+                        "ce:surname": "Jasen"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Procedia-Social and Behaviour Science",
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "148"
+                    },
+                    "pagerange": {
+                      "@first": "194",
+                      "@last": "202"
+                    }
+                  }
+                },
+                "ref-fulltext": "Lucassen, G., Jasen, S., Gamification in consumer marketing - future or fallacy?. Procedia-Social and Behaviour Science 148 (2014), 194–202."
+              },
+              {
+                "@id": "55",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Reality is broken: Why games make us better and how they can change the world"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "79953659562"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "J.",
+                      "ce:indexed-name": "McGonigal J.",
+                      "ce:surname": "McGonigal"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-text": "Vintage New York, USA"
+                },
+                "ref-fulltext": "McGonigal, J., Reality is broken: Why games make us better and how they can change the world. 2011, Vintage, New York, USA."
+              },
+              {
+                "@id": "56",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Immersion, engagement, and presence"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006442160"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "A.",
+                      "ce:indexed-name": "McMahan A.",
+                      "ce:surname": "McMahan"
+                    }
+                  },
+                  "ref-sourcetitle": "A method for analyzing 3-D video games",
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "77",
+                      "@last": "78"
+                    }
+                  },
+                  "ref-text": "J.P. Mark Wolf P. Bernard Routledge New York, NY, US Taylor &amp; Francis Group (2003)"
+                },
+                "ref-fulltext": "McMahan, A., Immersion, engagement, and presence. Mark, J.P., Wolf, Bernard, P., (eds.) A method for analyzing 3-D video games, 2003, Routledge, New York, NY, US, 77–78 Taylor &amp; Francis Group (2003)."
+              },
+              {
+                "@id": "57",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Marketing in travel and tourism"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0004293536"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:indexed-name": "Middleton",
+                        "ce:surname": "Middleton"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Fyall A.",
+                        "ce:surname": "Fyall"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "ce:indexed-name": "Morgan M.",
+                        "ce:surname": "Morgan"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-text": "4th ed. Butterworth-Heinemann Oxford UK"
+                },
+                "ref-fulltext": "Middleton, Fyall, A., Morgan, M., Marketing in travel and tourism. 4th ed., 2009, Butterworth-Heinemann Oxford, UK."
+              },
+              {
+                "@id": "58",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Exploring gamification techniques and applications for sustainable tourism"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84940507201"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.L.",
+                        "ce:indexed-name": "Negrusa A.L.",
+                        "ce:surname": "Negrusa"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "V.",
+                        "ce:indexed-name": "Toader V.",
+                        "ce:surname": "Toader"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Sofica A.",
+                        "ce:surname": "Sofica"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sustainability",
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "7"
+                    },
+                    "pagerange": {
+                      "@first": "11160",
+                      "@last": "11189"
+                    }
+                  }
+                },
+                "ref-fulltext": "Negrusa, A.L., Toader, V., Sofica, A., Exploring gamification techniques and applications for sustainable tourism. Sustainability 7 (2015), 11160–11189, 10.3390/su70811160."
+              },
+              {
+                "@id": "59",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Conceptualising technology enhanced destination experiences"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84873479022"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "ce:indexed-name": "Neuhofer B.",
+                        "ce:surname": "Neuhofer"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Buhalis D.",
+                        "ce:surname": "Buhalis"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "ce:indexed-name": "Ladkin A.",
+                        "ce:surname": "Ladkin"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Destination Marketing &amp; Management",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1-2",
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "36",
+                      "@last": "46"
+                    }
+                  }
+                },
+                "ref-fulltext": "Neuhofer, B., Buhalis, D., Ladkin, A., Conceptualising technology enhanced destination experiences. Journal of Destination Marketing &amp; Management 1:1–2 (2012), 36–46."
+              },
+              {
+                "@id": "60",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "A user-centered theoretical framework for meaningful gamification"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006382331"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "S.",
+                      "ce:indexed-name": "Nicholson S.",
+                      "ce:surname": "Nicholson"
+                    }
+                  },
+                  "ref-sourcetitle": "Games+Learning+Society 8.0",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-text": "(Madison, USA)"
+                },
+                "ref-fulltext": "Nicholson, S., A user-centered theoretical framework for meaningful gamification. Games+Learning+Society 8.0, 2012 (Madison, USA)."
+              },
+              {
+                "@id": "61",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The design of everyday things"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0003571142"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "D.",
+                      "ce:indexed-name": "Norman D.",
+                      "ce:surname": "Norman"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "1988"
+                  },
+                  "ref-text": "Doubleday New York"
+                },
+                "ref-fulltext": "Norman, D., The design of everyday things. 1988, Doubleday, New York."
+              },
+              {
+                "@id": "62",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006421430"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "ce:indexed-name": "Oinas-Kukkonen H.",
+                        "ce:surname": "Oinas-Kukkonen"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "ce:indexed-name": "Harjumaa M.",
+                        "ce:surname": "Harjumaa"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Towards deeper understanding of persuasion in software and information systems in proceedings of the first international Conference on Advances in human-computer interaction (ACHI 2008)",
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "200",
+                      "@last": "205"
+                    }
+                  }
+                },
+                "ref-fulltext": "Oinas-Kukkonen, H., &amp; Harjumaa, M. (2008). Towards deeper understanding of persuasion in software and information systems in proceedings of the first international Conference on Advances in human-computer interaction (ACHI 2008), pp.200–205."
+              },
+              {
+                "@id": "63",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Developing the travel career approach to tourist motivation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "13244278352"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "ce:indexed-name": "Pearce P.",
+                        "ce:surname": "Pearce"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "U.",
+                        "ce:indexed-name": "Lee U.",
+                        "ce:surname": "Lee"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Travel Research",
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "3",
+                      "@volume": "43"
+                    },
+                    "pagerange": {
+                      "@first": "226",
+                      "@last": "237"
+                    }
+                  }
+                },
+                "ref-fulltext": "Pearce, P., Lee, U., Developing the travel career approach to tourist motivation. Journal of Travel Research 43:3 (2005), 226–237."
+              },
+              {
+                "@id": "64",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The experience economy: Work is theatre and every business is a stage"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0004027767"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.J.",
+                        "ce:indexed-name": "Pine B.J.",
+                        "ce:surname": "Pine"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.H.",
+                        "ce:indexed-name": "Gillmore J.H.",
+                        "ce:surname": "Gillmore"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-text": "HBS Press Boston Mass"
+                },
+                "ref-fulltext": "Pine, B.J., Gillmore, J.H., The experience economy: Work is theatre and every business is a stage. 1999, HBS Press, Boston Mass."
+              },
+              {
+                "@id": "65",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Introduction to social research"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0004112180"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "K.",
+                      "ce:indexed-name": "Punch K.",
+                      "ce:surname": "Punch"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-text": "2nd ed. Sage Publication Ltd London"
+                },
+                "ref-fulltext": "Punch, K., Introduction to social research. 2nd ed., 2005, Sage Publication Ltd, London."
+              },
+              {
+                "@id": "66",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gaming"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006410270"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "R.A.",
+                      "ce:indexed-name": "Reiser R.A.",
+                      "ce:surname": "Reiser"
+                    }
+                  },
+                  "ref-sourcetitle": "Encyclopedia of the sciences of learning",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1335",
+                      "@last": "1340"
+                    }
+                  },
+                  "ref-text": "N.M. Seel Springer"
+                },
+                "ref-fulltext": "Reiser, R.A., Gaming. Seel, N.M., (eds.) Encyclopedia of the sciences of learning, 2012, Springer, 1335–1340, 10.1007/978-1-4419-1428-6."
+              },
+              {
+                "@id": "67",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Understanding and meeting the challenges of consumer/tourist experience research"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "67649448789"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.R.B.",
+                        "ce:indexed-name": "Ritchie J.R.B.",
+                        "ce:surname": "Ritchie"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "ce:indexed-name": "Hudson S.",
+                        "ce:surname": "Hudson"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "International Journal of Tourism Research",
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "2",
+                      "@volume": "11"
+                    },
+                    "pagerange": {
+                      "@first": "111",
+                      "@last": "126"
+                    }
+                  }
+                },
+                "ref-fulltext": "Ritchie, J.R.B., Hudson, S., Understanding and meeting the challenges of consumer/tourist experience research. International Journal of Tourism Research 11:2 (2009), 111–126."
+              },
+              {
+                "@id": "68",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Hide&amp;Seek"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006427009"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "M.",
+                      "ce:indexed-name": "Robertson M.",
+                      "ce:surname": "Robertson"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "@type": "email",
+                      "$": "http://hideandseek.net/2010/10/06/cant-play-wont-play/S"
+                    }
+                  },
+                  "ref-text": "Can't play,won't play [WWWDocument] Accessed 10.10.14"
+                },
+                "ref-fulltext": "Robertson, M., Hide&amp;Seek. Can't play,won't play [WWWDocument], 2010 http://hideandseek.net/2010/10/06/cant-play-wont-play/S Accessed 10.10.14."
+              },
+              {
+                "@id": "69",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The oxford handbook of human motivation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84886778119"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "R.M.",
+                      "ce:indexed-name": "Ryan R.M.",
+                      "ce:surname": "Ryan"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-text": "Oxford University Press Oxford, UK"
+                },
+                "ref-fulltext": "Ryan, R.M., The oxford handbook of human motivation. 2012, Oxford University Press, Oxford, UK."
+              },
+              {
+                "@id": "70",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Intrinsic and extrinsic motivations: Classic definitions and new directions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0002209063"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.M.",
+                        "ce:indexed-name": "Ryan R.M.",
+                        "ce:surname": "Ryan"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.L.",
+                        "ce:indexed-name": "Deci E.L.",
+                        "ce:surname": "Deci"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Contemporary Educational Psychology",
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25"
+                    },
+                    "pagerange": {
+                      "@first": "54",
+                      "@last": "67"
+                    }
+                  }
+                },
+                "ref-fulltext": "Ryan, R.M., Deci, E.L., Intrinsic and extrinsic motivations: Classic definitions and new directions. Contemporary Educational Psychology 25 (2000), 54–67."
+              },
+              {
+                "@id": "71",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Rules of play: Game design fundamentals"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "8644230883"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "ce:indexed-name": "Salen K.",
+                        "ce:surname": "Salen"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "ce:indexed-name": "Zimmerman E.",
+                        "ce:surname": "Zimmerman"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-text": "MIT Press Cambridge, Mass"
+                },
+                "ref-fulltext": "Salen, K., Zimmerman, E., Rules of play: Game design fundamentals. 2004, MIT Press, Cambridge, Mass."
+              },
+              {
+                "@id": "72",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The art of game design: A book of lenses"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "70450250758"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "J.",
+                      "ce:indexed-name": "Schell J.",
+                      "ce:surname": "Schell"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    }
+                  },
+                  "ref-text": "Morgan Kaufmann Publishers Burlington, Mass., USA (Elsevier)"
+                },
+                "ref-fulltext": "Schell, J., The art of game design: A book of lenses. Vol. 1, 2008, Morgan Kaufmann Publishers, Burlington, Mass., USA (Elsevier)."
+              },
+              {
+                "@id": "73",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006427006"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.J.",
+                        "ce:indexed-name": "Schiano D.J.",
+                        "ce:surname": "Schiano"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "ce:indexed-name": "White S.",
+                        "ce:surname": "White"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "The first noble truth of CyberSpace: People are people (even when they MOO). Chi proceedings of the SIGCHI conference on human factors in computing systems.",
+                  "ref-publicationyear": {
+                    "@first": "1998"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "352",
+                      "@last": "359"
+                    }
+                  }
+                },
+                "ref-fulltext": "Schiano, D. J., &amp; White, S. (1998). The first noble truth of CyberSpace: People are people (even when they MOO). Chi proceedings of the SIGCHI conference on human factors in computing systems. Pp. 352–359."
+              },
+              {
+                "@id": "74",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamification in thoery and action: A survey"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84908423979"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "ce:indexed-name": "Seaborn K.",
+                        "ce:surname": "Seaborn"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.I.",
+                        "ce:indexed-name": "Fels D.I.",
+                        "ce:surname": "Fels"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "International Journal of Human-Computer Studies",
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "74"
+                    },
+                    "pagerange": {
+                      "@first": "14",
+                      "@last": "31"
+                    }
+                  }
+                },
+                "ref-fulltext": "Seaborn, K., Fels, D.I., Gamification in thoery and action: A survey. International Journal of Human-Computer Studies 74 (2015), 14–31."
+              },
+              {
+                "@id": "75",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "A review of mobile pervasive learning: Applications and issues"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84922368824"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "ce:indexed-name": "Shuib L.",
+                        "ce:surname": "Shuib"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "ce:indexed-name": "Shamshirband S.",
+                        "ce:surname": "Shamshirband"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.H.",
+                        "ce:indexed-name": "Ismail M.H.",
+                        "ce:surname": "Ismail"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Computers in Human Behavior",
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "46"
+                    },
+                    "pagerange": {
+                      "@first": "239",
+                      "@last": "244"
+                    }
+                  }
+                },
+                "ref-fulltext": "Shuib, L., Shamshirband, S., Ismail, M.H., A review of mobile pervasive learning: Applications and issues. Computers in Human Behavior 46 (2015), 239–244."
+              },
+              {
+                "@id": "76",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamification for crowdsourcing marketing practices: Applications and benefits in tourism"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84943401449"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "M.",
+                      "ce:indexed-name": "Sigala M.",
+                      "ce:surname": "Sigala"
+                    }
+                  },
+                  "ref-sourcetitle": "Advances in crowdsouring",
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "129",
+                      "@last": "145"
+                    }
+                  },
+                  "ref-text": "F.J. Garrigos-Simon I. Gil-Pechuan S. Estelles-Miguel"
+                },
+                "ref-fulltext": "Sigala, M., Gamification for crowdsourcing marketing practices: Applications and benefits in tourism. Garrigos-Simon, F.J., Gil-Pechuan, I., Estelles-Miguel, S., (eds.) Advances in crowdsouring, 2015, 129–145, 10.1007/978-3-319-18341-1_11."
+              },
+              {
+                "@id": "77",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The application and impact of gamaification funware on trip planning and experiences: The case of TripAdvisor's funware"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84939271683"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "M.",
+                      "ce:indexed-name": "Sigala M.",
+                      "ce:surname": "Sigala"
+                    }
+                  },
+                  "ref-sourcetitle": "Electron Markets",
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25"
+                    },
+                    "pagerange": {
+                      "@first": "189",
+                      "@last": "209"
+                    }
+                  }
+                },
+                "ref-fulltext": "Sigala, M., The application and impact of gamaification funware on trip planning and experiences: The case of TripAdvisor's funware. Electron Markets 25 (2015), 189–209."
+              },
+              {
+                "@id": "78",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The role of customer engagement in building consumer loyalty to tourism brands"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84949921231"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.K.F.",
+                        "ce:indexed-name": "So K.K.F.",
+                        "ce:surname": "So"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "King C.",
+                        "ce:surname": "King"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.A.",
+                        "ce:indexed-name": "Sparks B.A.",
+                        "ce:surname": "Sparks"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "ce:indexed-name": "Wang Y.",
+                        "ce:surname": "Wang"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Travel Research",
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1",
+                      "@volume": "55"
+                    },
+                    "pagerange": {
+                      "@first": "64",
+                      "@last": "78"
+                    }
+                  }
+                },
+                "ref-fulltext": "So, K.K.F., King, C., Sparks, B.A., Wang, Y., The role of customer engagement in building consumer loyalty to tourism brands. Journal of Travel Research 55:1 (2016), 64–78."
+              },
+              {
+                "@id": "79",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamification: Best practices in research and tourism"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006421025"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Stadler D.",
+                        "ce:surname": "Stadler"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "V.",
+                        "ce:indexed-name": "Bilgram V.",
+                        "ce:surname": "Bilgram"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Open tourism, tourism on the verge",
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-text": "R. Egger I. Gula D. Walcher et al. (eds.) Springer-Verlag Berlin Heidberg DOI: 10/1007/978-3-642-54089-9_28"
+                },
+                "ref-fulltext": "Stadler, D., Bilgram, V., Gamification: Best practices in research and tourism. Egger, R., Gula, I., Walcher, D., et al. (eds.) Open tourism, tourism on the verge, 2016, Springer-Verlag Berlin Heidberg DOI: 10/1007/978-3-642-54089-9_28."
+              },
+              {
+                "@id": "80",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Prensence, involvement and flow in digital games"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84893527415"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Takatalo J.",
+                        "ce:surname": "Takatalo"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Hakkinen J.",
+                        "ce:surname": "Hakkinen"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Kaistinen J.",
+                        "ce:surname": "Kaistinen"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "ce:indexed-name": "Nyman G.",
+                        "ce:surname": "Nyman"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Evaluating user experience in games. Human- computer interaction series",
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-text": "R. Burhapt Springer- Verlago London Limited"
+                },
+                "ref-fulltext": "Takatalo, J., Hakkinen, J., Kaistinen, J., Nyman, G., Prensence, involvement and flow in digital games. Burhapt, R., (eds.) Evaluating user experience in games. Human- computer interaction series, 2010, Springer- Verlago London Limited, 10.1007/978-1-84882-963-3_3."
+              },
+              {
+                "@id": "81",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Exploring the essence of memorable tourist experiences"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "80054682819"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.W.S.",
+                        "ce:indexed-name": "Tung V.W.S.",
+                        "ce:surname": "Tung"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.J.R.",
+                        "ce:indexed-name": "Ritchie B.J.R.",
+                        "ce:surname": "Ritchie"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Annal of Tourism Research",
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "4",
+                      "@volume": "38"
+                    },
+                    "pagerange": {
+                      "@first": "1367",
+                      "@last": "1386"
+                    }
+                  }
+                },
+                "ref-fulltext": "Tung, V.W.S., Ritchie, B.J.R., Exploring the essence of memorable tourist experiences. Annal of Tourism Research 38:4 (2011), 1367–1386."
+              },
+              {
+                "@id": "82",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Mediating the tourist experiences: Access to places via shared videos"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "58749100311"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.P.",
+                        "ce:indexed-name": "Tussyadiah I.P.",
+                        "ce:surname": "Tussyadiah"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.R.",
+                        "ce:indexed-name": "Fesenmaier D.R.",
+                        "ce:surname": "Fesenmaier"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Annals of Tourism Research",
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1",
+                      "@volume": "36"
+                    },
+                    "pagerange": {
+                      "@first": "24",
+                      "@last": "40"
+                    }
+                  }
+                },
+                "ref-fulltext": "Tussyadiah, I.P., Fesenmaier, D.R., Mediating the tourist experiences: Access to places via shared videos. Annals of Tourism Research 36:1 (2009), 24–40."
+              },
+              {
+                "@id": "83",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The tourist experience: Conceptual developments"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "14544305073"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "N.",
+                      "ce:indexed-name": "Uriely N.",
+                      "ce:surname": "Uriely"
+                    }
+                  },
+                  "ref-sourcetitle": "Annals of Tourism Research",
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1",
+                      "@volume": "31"
+                    },
+                    "pagerange": {
+                      "@first": "199",
+                      "@last": "216"
+                    }
+                  }
+                },
+                "ref-fulltext": "Uriely, N., The tourist experience: Conceptual developments. Annals of Tourism Research 31:1 (2005), 199–216."
+              },
+              {
+                "@id": "84",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Service-dominant Logic: Continuing the evolution"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "41549086861"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.L.",
+                        "ce:indexed-name": "Vargo S.L.",
+                        "ce:surname": "Vargo"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.F.",
+                        "ce:indexed-name": "Lusch R.F.",
+                        "ce:surname": "Lusch"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of the Academy of Marketing Science",
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "10"
+                    }
+                  }
+                },
+                "ref-fulltext": "Vargo, S.L., Lusch, R.F., Service-dominant Logic: Continuing the evolution. Journal of the Academy of Marketing Science 36 (2008), 1–10."
+              },
+              {
+                "@id": "85",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Customer Engagement: Exploring customer relationships beyond purchase"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84863512848"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.D.",
+                        "ce:indexed-name": "Vivek S.D.",
+                        "ce:surname": "Vivek"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.E.",
+                        "ce:indexed-name": "Beatty S.E.",
+                        "ce:surname": "Beatty"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.M.",
+                        "ce:indexed-name": "Morgan R.M.",
+                        "ce:surname": "Morgan"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Marketing Theory &amp; Practice",
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "2",
+                      "@volume": "20"
+                    },
+                    "pagerange": {
+                      "@first": "122",
+                      "@last": "146"
+                    }
+                  }
+                },
+                "ref-fulltext": "Vivek, S.D., Beatty, S.E., Morgan, R.M., Customer Engagement: Exploring customer relationships beyond purchase. Journal of Marketing Theory &amp; Practice 20:2 (2012), 122–146."
+              },
+              {
+                "@id": "86",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006467009"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.P.",
+                        "ce:indexed-name": "Waltz S.P.",
+                        "ce:surname": "Waltz"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "ce:indexed-name": "Ballagas R.",
+                        "ce:surname": "Ballagas"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Pervasive persuasive: A rhetorical design approach to a location-based spell-casting game for tourists. In: Proceedings of situated play. DiGRA 2007-The 3rd international digital games research conference",
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "489",
+                      "@last": "497"
+                    }
+                  },
+                  "ref-text": "Tokyo, september 24-28"
+                },
+                "ref-fulltext": "Waltz, S. P. &amp; Ballagas, R. (2007). Pervasive persuasive: A rhetorical design approach to a location-based spell-casting game for tourists. In: Proceedings of situated play. DiGRA 2007-The 3rd international digital games research conference, Tokyo, september 24-28, 2007. pp. 489–497."
+              },
+              {
+                "@id": "87",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "For the Win: How game thinking can revolutionize your business"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84879495414"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "ce:indexed-name": "Werbach K.",
+                        "ce:surname": "Werbach"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Hunter D.",
+                        "ce:surname": "Hunter"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-text": "Wharton Digital Press Philadelphia, PA"
+                },
+                "ref-fulltext": "Werbach, K., Hunter, D., For the Win: How game thinking can revolutionize your business. 2012, Wharton Digital Press, Philadelphia, PA."
+              },
+              {
+                "@id": "88",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Tourism and hospitality marketing: Fantasy, feeling and fun"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "33747492383"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "A.",
+                      "ce:indexed-name": "Williams A.",
+                      "ce:surname": "Williams"
+                    }
+                  },
+                  "ref-sourcetitle": "International Journal of Contemporary Hospitality Management",
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "6",
+                      "@volume": "18"
+                    },
+                    "pagerange": {
+                      "@first": "482",
+                      "@last": "495"
+                    }
+                  }
+                },
+                "ref-fulltext": "Williams, A., Tourism and hospitality marketing: Fantasy, feeling and fun. International Journal of Contemporary Hospitality Management 18:6 (2006), 482–495."
+              },
+              {
+                "@id": "89",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "WTM, World travel market global trends eport"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006420255"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "@type": "email",
+                      "$": "http://www.euromonitor.com/medialibrary/PDF/WTMGlobalTrendsReport2011.pdf"
+                    }
+                  },
+                  "ref-text": "Accessed 12.01.14"
+                },
+                "ref-fulltext": "WTM, World travel market global trends eport. 2011 http://www.euromonitor.com/medialibrary/PDF/WTMGlobalTrendsReport2011.pdf Accessed 12.01.14."
+              },
+              {
+                "@id": "90",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Literature review on web application gamification and analytics"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84870653955"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "Y.",
+                      "ce:indexed-name": "Xu Y.",
+                      "ce:surname": "Xu"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-text": "CSDL Technical report, 11–05"
+                },
+                "ref-fulltext": "Xu, Y., Literature review on web application gamification and analytics. CSDL Technical report, 11–05, 2011."
+              },
+              {
+                "@id": "91",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Tourists as mobile gamers, the gamification for tourism marketing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006458814"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "ce:indexed-name": "Xu F.",
+                        "ce:surname": "Xu"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "ce:indexed-name": "Tian F.",
+                        "ce:surname": "Tian"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Buhalis D.",
+                        "ce:surname": "Buhalis"
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Weber J.",
+                        "ce:surname": "Weber"
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "ce:indexed-name": "Zhang H.",
+                        "ce:surname": "Zhang"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Travel and Tourism Marketing",
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "@type": "email",
+                      "$": "http://dx.doi.org/10.1080/105408.2015.1092999"
+                    }
+                  }
+                },
+                "ref-fulltext": "Xu, F., Tian, F., Buhalis, D., Weber, J., Zhang, H., Tourists as mobile gamers, the gamification for tourism marketing. Journal of Travel and Tourism Marketing, 2015 http://dx.doi.org/10.1080/105408.2015.1092999."
+              },
+              {
+                "@id": "92",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "The gamification of tourism"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006420228"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "ce:indexed-name": "Xu F.",
+                        "ce:surname": "Xu"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Weber J.",
+                        "ce:surname": "Weber"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Buhalis D.",
+                        "ce:surname": "Buhalis"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Information and communication technologies in tourism 2014",
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "525",
+                      "@last": "537"
+                    }
+                  },
+                  "ref-text": "Z. Xiang I. Tussyadiah Springer Wien (Proceedings of the International Conference in Dublin)"
+                },
+                "ref-fulltext": "Xu, F., Weber, J., Buhalis, D., The gamification of tourism. Xiang, Z., Tussyadiah, I., (eds.) Information and communication technologies in tourism 2014, 2014, Springer, Wien, 525–537 (Proceedings of the International Conference in Dublin)."
+              },
+              {
+                "@id": "93",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Case study research: Design and methods"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "0003673547"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "R.K.",
+                      "ce:indexed-name": "Yin R.K.",
+                      "ce:surname": "Yin"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "1994"
+                  },
+                  "ref-text": "Sage Newbury Park, CA"
+                },
+                "ref-fulltext": "Yin, R.K., Case study research: Design and methods. 1994, Sage, Newbury Park, CA."
+              },
+              {
+                "@id": "94",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Engineering augmented tourism experiences"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006345397"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "ce:indexed-name": "Yovcheva Z.",
+                        "ce:surname": "Yovcheva"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "ce:indexed-name": "Buhalis D.",
+                        "ce:surname": "Buhalis"
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Gatzidis C.",
+                        "ce:surname": "Gatzidis"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Information and communication technologies in tourism",
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "24",
+                      "@last": "35"
+                    }
+                  },
+                  "ref-text": "L. Cantoni Z. Xiang Springer Vienna"
+                },
+                "ref-fulltext": "Yovcheva, Z., Buhalis, D., Gatzidis, C., Engineering augmented tourism experiences. Cantoni, L., Xiang, Z., (eds.) Information and communication technologies in tourism, 2013, Springer, Vienna, 24–35."
+              },
+              {
+                "@id": "95",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamification Co"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "85006332392"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": {
+                      "@seq": "1",
+                      "ce:initials": "G.",
+                      "ce:indexed-name": "Zichermann G.",
+                      "ce:surname": "Zichermann"
+                    }
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "@type": "email",
+                      "$": "http://www.gamification.co/2011/10/27/intrinsic-and-extrinsic-motivation-in-gamification/S"
+                    }
+                  },
+                  "ref-text": "Intrinsic and Extrinsic Motivation in Gamification [WWW Document] Accessed 10.10.14"
+                },
+                "ref-fulltext": "Zichermann, G., Gamification Co. Intrinsic and Extrinsic Motivation in Gamification [WWW Document], 2011 http://www.gamification.co/2011/10/27/intrinsic-and-extrinsic-motivation-in-gamification/S Accessed 10.10.14."
+              },
+              {
+                "@id": "96",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Gamification by design: Implementing game mechanics in web and mobile apps"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "84858179538"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "ce:indexed-name": "Zichermann G.",
+                        "ce:surname": "Zichermann"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "ce:indexed-name": "Cunningham C.",
+                        "ce:surname": "Cunningham"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-text": "O'Reilly Media (Incorporated)"
+                },
+                "ref-fulltext": "Zichermann, G., Cunningham, C., Gamification by design: Implementing game mechanics in web and mobile apps. 2011, O'Reilly Media (Incorporated)."
+              },
+              {
+                "@id": "97",
+                "ref-info": {
+                  "ref-title": {
+                    "ref-titletext": "Game based marketing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "@idtype": "SGR",
+                      "$": "79957949536"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "ce:indexed-name": "Zichermann G.",
+                        "ce:surname": "Zichermann"
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "ce:indexed-name": "Linder J.",
+                        "ce:surname": "Linder"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-text": "John Wiley &amp; Sons Inc New Jersey"
+                },
+                "ref-fulltext": "Zichermann, G., Linder, J., Game based marketing. 2010, John Wiley &amp; Sons Inc, New Jersey."
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

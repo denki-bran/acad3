@@ -1,0 +1,29 @@
+{
+  "name": "acad3",
+  "version": "1.0.0",
+  "description": "ids",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zy12834/acad3.git"
+  },
+  "author": "Ding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zy12834/acad3/issues"
+  },
+  "homepage": "https://github.com/zy12834/acad3#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "request": "^2.79.0",
+    "superagent": "^3.4.4"
+  },
+  "devDependencies": {
+    "http-proxy": "^1.16.2"
+  }
+}

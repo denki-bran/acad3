@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  background: #D00000;
+  color: white;
+  text-align: center;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 5em;
+}
+section{
+  margin-top:10px;
+  h1 {
+    font-size: 5em;
+    max-width: 11em;
+    margin: 0 auto;
+    line-height: 2em;
+
+    small {
+      display: block;
+      font-size: 0.65em;
+      line-height: 1.1em;
+    }
+  }
+}

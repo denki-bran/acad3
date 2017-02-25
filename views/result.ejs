@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=1"  />
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <link href="/css/result.css" rel="stylesheet" type="text/css"/>
+    <title>Result</title>
+</head>
+<body>
+<div class="content">
+    <div class="searchResults">
+        <% for(var i=0; i<result.length; i++) { %>
+        <div class="resultWhole" >
+            <div class="resultTitle"><!--TODO:1.if NO reference;2. if 404-->
+                <span><%= i+1%>. </span>
+                <%if (result[i]['ref-info'].hasOwnProperty('ref-title')){%>
+                <a href="ref?arg=2-s2.0-<%-result[i]['ref-info']['refd-itemidlist']['itemid']['$']%>"><%-result[i]['ref-info']['ref-title']['ref-titletext'] %></a>
+                <%}else{%>
+                <a href="ref?arg=2-s2.0-<%-result[i]['ref-info']['refd-itemidlist']['itemid']['$']%>">LACK OF TITLE</a>
+                <%}%><!--Problem: Some response-json is lacking of some objects-->
+            </div>
+            <div class="resultContent">
+                <%if (result[i]['ref-info'].hasOwnProperty('ref-authors')){%>
+                <% for(var j=0;j<result[i]['ref-info']['ref-authors']['author'].length;j++){%>
+                <span class="authName"><%- result[i]['ref-info']['ref-authors']['author'][j]['ce:indexed-name']%> |</span> <!--TODO: delete final split line -->
+                <%}%>
+                <%}else{%>
+                <span class="authName">LACK OF AUTHOR NAME</span>
+                <%}%>
+            </div>
+            <div class="appender" id="append<%= i+1%>"></div>
+            <div class="resultDivide">
+                <hr>
+            </div>
+        </div>
+        <% } %>
+    </div>
+</div>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/fe/result.js"></script>
+
+</body>
+</html>
