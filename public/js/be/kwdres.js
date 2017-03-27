@@ -1,17 +1,17 @@
 /**
- * Created by dingjunyi on 2017/2/16.
+ * Created by dingjunyi on 2017/3/4.
  */
 "use strict";
 const request = require('request');
 const cheerio = require('cheerio');
 
 const url={
-    detailApi:"https://api.elsevier.com/content/abstract/",
+    kesApi:"http://api.elsevier.com/content/search/scopus?query=",
 };
 
-const fetchDetail = (key,eid,callback)=>{
+const fetchRes = (key,kwd,callback)=>{
     const options = {
-        url:url.detailApi+"eid:"+eid+"?view=FULL",
+        url:url.kesApi+"title%28"+kwd+"%29",
         headers:{
             'X-ELS-APIKey':key,
             'Accept':'application/json'
@@ -40,20 +40,20 @@ const fetchDetail = (key,eid,callback)=>{
 
 };
 
-const parseDetail = (body, callback) => {
-    let ref = JSON.parse(body)["abstracts-retrieval-response"].item["bibrecord"].tail["bibliography"].reference;
+const parseRes = (body, callback) => {
+    let ref = JSON.parse(body)["search-results"].entry;
     return callback(null, ref);
 };
 
-const detail = (key,eid,callback)=>{
-    fetchDetail(key,eid,(errFetch,resFetch)=>{
+const result = (key,kwd,callback)=>{
+    fetchRes(key,kwd,(errFetch,resFetch)=>{
         if (errFetch) {
             return console.log(errFetch);
         }
-        parseDetail(resFetch, (errParse, data) => {
+        parseRes(resFetch, (errParse, data) => {
             callback(null,data)
         });
     })
 };
 
-module.exports = detail;
+module.exports = result;

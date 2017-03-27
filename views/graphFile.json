@@ -1,0 +1,383 @@
+{
+  "nodes": [
+    {
+      "name": "Adult cardiac-resident MSC-like stem cells with a proepicardial origin"
+    },
+    {
+      "name": "Pericytes: Developmental, physiological, and pathological perspectives, problems, and promises"
+    },
+    {
+      "name": "Adult cardiac stem cells are multipotent and support myocardial regeneration"
+    },
+    {
+      "name": "Evidence for cardiomyocyte renewal in humans"
+    },
+    {
+      "name": "Neuregulin1/ErbB4 signaling induces cardiomyocyte proliferation and repair of heart injury"
+    },
+    {
+      "name": "Mesenchymal progenitor self-renewal deficiency leads to age-dependent osteoporosis in Sca-1/Ly-6A null mice"
+    },
+    {
+      "name": "Adult mesenchymal stem cells for tissue engineering versus regenerative medicine"
+    },
+    {
+      "name": "The embryonic epicardium: An essential element of cardiac development"
+    },
+    {
+      "name": "Formation of the venous pole of the heart from an Nkx2-5-negative precursor population requires Tbx18"
+    },
+    {
+      "name": "A perivascular origin for mesenchymal stem cells in multiple human organs"
+    },
+    {
+      "name": "In search of the in vivo identity of mesenchymal stem cells"
+    },
+    {
+      "name": "Hematopoietic origins of fibroblasts: II. In vitro studies of fibroblasts, CFU-F, and fibrocytes"
+    },
+    {
+      "name": "Cardioprotective c-kit+cells are from the bone marrow and regulate the myocardial balance of angiogenic cytokines"
+    },
+    {
+      "name": "Activation of c-kit is necessary for mobilization of reparative bone marrow progenitor cells in response to cardiac injury"
+    },
+    {
+      "name": "The development of fibroblast colonies in monolayer cultures of guinea-pig bone marrow and spleen cells"
+    },
+    {
+      "name": "Cardiac mesoangioblasts are committed, self-renewable progenitors, associated with small vessels of juvenile mouse ventricle"
+    },
+    {
+      "name": "Evidence from a genetic fate-mapping study that stem cells refresh adult mammalian cardiomyocytes after injury"
+    },
+    {
+      "name": "Hepatocyte growth factor mobilizes non-bone marrow-dividing circulating mesoangioblasts"
+    },
+    {
+      "name": "Cardiomyogenesis in the adult human heart"
+    },
+    {
+      "name": "Evidence for human lung stem cells"
+    },
+    {
+      "name": "Comparative analysis of mesenchymal stem cells from bone marrow, umbilical cord blood, or adipose tissue"
+    },
+    {
+      "name": "Retinoic acid production by endocardium and epicardium is an injury response essential for zebrafish heart regeneration"
+    },
+    {
+      "name": "The bone marrow constitutes a reservoir of pericyte progenitors"
+    },
+    {
+      "name": "Postnatal isl1+cardioblasts enter fully differentiated cardiomyocyte lineages"
+    },
+    {
+      "name": "C-kit is required for cardiomyocyte terminal differentiation"
+    },
+    {
+      "name": "Periostin expression by epicardium-derived cells is involved in the development of the atrioventricular valves and fibrous heart skeleton"
+    },
+    {
+      "name": "Stem cells in the dog heart are self-renewing, clonogenic, and multipotent and regenerate infarcted myocardium, improving cardiac function"
+    },
+    {
+      "name": "Enumeration of neural stem and progenitor cells in the neural colony-forming cell assay"
+    },
+    {
+      "name": "Granulocyte colony-stimulating factor mobilized CFU-F can be found in the peripheral blood but have limited expansion potential"
+    },
+    {
+      "name": "Reassessment of Isl1 and Nkx2-5 cardiac fate maps using a Gata4-based reporter of Cre activity"
+    },
+    {
+      "name": "Wt1 is required for cardiovascular progenitor cell formation through transcriptional control of Snail and E-cadherin"
+    },
+    {
+      "name": "Platelet-derived growth factor receptor beta signaling is required for efficient epicardial cell migration and development of two distinct coronary vascular smooth muscle cell populations"
+    },
+    {
+      "name": "Mesenchymal and haematopoietic stem cells form a unique bone marrow niche"
+    },
+    {
+      "name": "Epicardial retinoid X receptor α is required for myocardial growth and coronary artery formation"
+    },
+    {
+      "name": "Isolation and expansion of adult cardiac stem cells from human and murine heart"
+    },
+    {
+      "name": "Restoration of cardiac progenitor cells after myocardial infarction by self-proliferation and selective homing of bone marrow-derived stem cells"
+    },
+    {
+      "name": "Microchimerism in female bone marrow and bone decades after fetal mesenchymal stem-cell trafficking in pregnancy"
+    },
+    {
+      "name": "Cardiac progenitor cells from adult myocardium: Homing, differentiation, and fusion after infarction"
+    },
+    {
+      "name": "Comprehensive transcriptome and immunophenotype analysis of renal and cardiac MSC-like populations supports strong congruence with bone marrow MSC despite maintenance of distinct identities"
+    },
+    {
+      "name": "Multipotential mesenchymal stem cells are mobilized into peripheral blood by hypoxia"
+    },
+    {
+      "name": "Human mesenchymal stem cells self-renew and differentiate according to a deterministic hierarchy"
+    },
+    {
+      "name": "Lineage tracing of cardiac explant derived cells"
+    },
+    {
+      "name": "Host origin of marrow stromal cells following allogeneic bone marrow transplantation"
+    },
+    {
+      "name": "De novo cardiomyocytes from within the activated adult heart after injury"
+    },
+    {
+      "name": "BMP receptor IA is required in mammalian neural crest cells for development of the cardiac outflow tract and ventricular myocardium"
+    },
+    {
+      "name": "Neuroepithelial Cells Supply an Initial Transient Wave of MSC Differentiation"
+    },
+    {
+      "name": "Cardiac neural crest cells contribute to the dormant multipotent stem cell in the mammalian heart"
+    },
+    {
+      "name": "Developmental Origin of a Bipotential Myocardial and Smooth Muscle Cell Precursor in the Mammalian Heart"
+    },
+    {
+      "name": "C-Kit function is necessary for in vitro myogenic differentiation of bone marrow hematopoietic cells"
+    },
+    {
+      "name": "Epicardium-derived progenitor cells require β-catenin for coronary artery formation"
+    },
+    {
+      "name": "Blood-borne stem cells differentiate into vascular and cardiac lineages during normal development"
+    },
+    {
+      "name": "Dedifferentiation and proliferation of mammalian cardiomyocytes"
+    },
+    {
+      "name": "Epicardial progenitors contribute to the cardiomyocyte lineage in the developing heart"
+    },
+    {
+      "name": "Nkx2-5- and Isl1-expressing cardiac progenitors contribute to proepicardium"
+    },
+    {
+      "name": "Genetic fate mapping demonstrates contribution of epicardium-derived cells to the annulus fibrosis of the mammalian heart"
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 0
+    },
+    {
+      "source": 2,
+      "target": 0
+    },
+    {
+      "source": 3,
+      "target": 0
+    },
+    {
+      "source": 4,
+      "target": 0
+    },
+    {
+      "source": 5,
+      "target": 0
+    },
+    {
+      "source": 6,
+      "target": 0
+    },
+    {
+      "source": 7,
+      "target": 0
+    },
+    {
+      "source": 8,
+      "target": 0
+    },
+    {
+      "source": 9,
+      "target": 0
+    },
+    {
+      "source": 10,
+      "target": 0
+    },
+    {
+      "source": 11,
+      "target": 0
+    },
+    {
+      "source": 12,
+      "target": 0
+    },
+    {
+      "source": 13,
+      "target": 0
+    },
+    {
+      "source": 14,
+      "target": 0
+    },
+    {
+      "source": 15,
+      "target": 0
+    },
+    {
+      "source": 16,
+      "target": 0
+    },
+    {
+      "source": 17,
+      "target": 0
+    },
+    {
+      "source": 18,
+      "target": 0
+    },
+    {
+      "source": 19,
+      "target": 0
+    },
+    {
+      "source": 20,
+      "target": 0
+    },
+    {
+      "source": 21,
+      "target": 0
+    },
+    {
+      "source": 22,
+      "target": 0
+    },
+    {
+      "source": 23,
+      "target": 0
+    },
+    {
+      "source": 24,
+      "target": 0
+    },
+    {
+      "source": 25,
+      "target": 0
+    },
+    {
+      "source": 26,
+      "target": 0
+    },
+    {
+      "source": 27,
+      "target": 0
+    },
+    {
+      "source": 28,
+      "target": 0
+    },
+    {
+      "source": 29,
+      "target": 0
+    },
+    {
+      "source": 30,
+      "target": 0
+    },
+    {
+      "source": 31,
+      "target": 0
+    },
+    {
+      "source": 32,
+      "target": 0
+    },
+    {
+      "source": 33,
+      "target": 0
+    },
+    {
+      "source": 34,
+      "target": 0
+    },
+    {
+      "source": 35,
+      "target": 0
+    },
+    {
+      "source": 36,
+      "target": 0
+    },
+    {
+      "source": 37,
+      "target": 0
+    },
+    {
+      "source": 38,
+      "target": 0
+    },
+    {
+      "source": 39,
+      "target": 0
+    },
+    {
+      "source": 40,
+      "target": 0
+    },
+    {
+      "source": 41,
+      "target": 0
+    },
+    {
+      "source": 42,
+      "target": 0
+    },
+    {
+      "source": 43,
+      "target": 0
+    },
+    {
+      "source": 44,
+      "target": 0
+    },
+    {
+      "source": 45,
+      "target": 0
+    },
+    {
+      "source": 46,
+      "target": 0
+    },
+    {
+      "source": 47,
+      "target": 0
+    },
+    {
+      "source": 48,
+      "target": 0
+    },
+    {
+      "source": 49,
+      "target": 0
+    },
+    {
+      "source": 50,
+      "target": 0
+    },
+    {
+      "source": 51,
+      "target": 0
+    },
+    {
+      "source": 52,
+      "target": 0
+    },
+    {
+      "source": 53,
+      "target": 0
+    }
+  ]
+}

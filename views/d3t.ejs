@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=1"  />
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <link href="css/d3t.css" rel="stylesheet" type="text/css"/>
+    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+    <title>D3 - T</title>
+</head>
+<body>
+<div class="menu">
+    <div class="searchBoxCon">
+        <div class="searchBoxForm">
+            <input class="inputBox">
+            <button class="searchButton">
+            </button>
+        </div>
+    </div>
+    <div class="dividerLine"></div>
+    <div class="nodeNumCon">
+        <div class="cntr" id="range"></div>
+        <div class="node-num-enter-btn">
+            NODES ->
+        </div>
+    </div>
+    <div class="dividerLine"></div>
+    <div class="selectBoxCon">
+        <label>
+            <select>
+            </select>
+        </label>
+    </div>
+</div>
+<div class="cvs"><svg class="svg"></svg>
+</div>
+</body>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src="http://d3js.org/d3.v2.min.js?2.9.3"></script>
+<script type="text/javascript" src="/js/fe/d3t.js"></script>
+<script>
+    let data ={
+        "nodes": [
+            {
+                "name": "Adult cardiac-resident MSC-like stem cells with a proepicardial origin"
+            },
+            {
+                "name": "Pericytes: Developmental, physiological, and pathological perspectives, problems, and promises"
+            },
+            {
+                "name": "Adult cardiac stem cells are multipotent and support myocardial regeneration"
+            },
+            {
+                "name": "Evidence for cardiomyocyte renewal in humans"
+            },
+            {
+                "name": "Neuregulin1/ErbB4 signaling induces cardiomyocyte proliferation and repair of heart injury"
+            },
+            {
+                "name": "Mesenchymal progenitor self-renewal deficiency leads to age-dependent osteoporosis in Sca-1/Ly-6A null mice"
+            },
+            {
+                "name": "Adult mesenchymal stem cells for tissue engineering versus regenerative medicine"
+            },
+            {
+                "name": "The embryonic epicardium: An essential element of cardiac development"
+            },
+            {
+                "name": "Formation of the venous pole of the heart from an Nkx2-5-negative precursor population requires Tbx18"
+            },
+            {
+                "name": "A perivascular origin for mesenchymal stem cells in multiple human organs"
+            },
+            {
+                "name": "In search of the in vivo identity of mesenchymal stem cells"
+            },
+            {
+                "name": "Hematopoietic origins of fibroblasts: II. In vitro studies of fibroblasts, CFU-F, and fibrocytes"
+            },
+            {
+                "name": "Cardioprotective c-kit+cells are from the bone marrow and regulate the myocardial balance of angiogenic cytokines"
+            },
+            {
+                "name": "Activation of c-kit is necessary for mobilization of reparative bone marrow progenitor cells in response to cardiac injury"
+            },
+            {
+                "name": "The development of fibroblast colonies in monolayer cultures of guinea-pig bone marrow and spleen cells"
+            },
+            {
+                "name": "Cardiac mesoangioblasts are committed, self-renewable progenitors, associated with small vessels of juvenile mouse ventricle"
+            },
+            {
+                "name": "Evidence from a genetic fate-mapping study that stem cells refresh adult mammalian cardiomyocytes after injury"
+            },
+            {
+                "name": "Hepatocyte growth factor mobilizes non-bone marrow-dividing circulating mesoangioblasts"
+            },
+            {
+                "name": "Cardiomyogenesis in the adult human heart"
+            },
+            {
+                "name": "Evidence for human lung stem cells"
+            },
+            {
+                "name": "Comparative analysis of mesenchymal stem cells from bone marrow, umbilical cord blood, or adipose tissue"
+            }
+        ],
+        "links": [
+            {
+                "source": 1,
+                "target": 0
+            },
+            {
+                "source": 2,
+                "target": 0
+            },
+            {
+                "source": 3,
+                "target": 0
+            },
+            {
+                "source": 4,
+                "target": 0
+            },
+            {
+                "source": 5,
+                "target": 0
+            },
+            {
+                "source": 6,
+                "target": 0
+            },
+            {
+                "source": 7,
+                "target": 0
+            },
+            {
+                "source": 8,
+                "target": 0
+            },
+            {
+                "source": 9,
+                "target": 0
+            },
+            {
+                "source": 10,
+                "target": 0
+            },
+            {
+                "source": 11,
+                "target": 0
+            },
+            {
+                "source": 12,
+                "target": 0
+            },
+            {
+                "source": 13,
+                "target": 0
+            },
+            {
+                "source": 14,
+                "target": 0
+            },
+            {
+                "source": 15,
+                "target": 0
+            },
+            {
+                "source": 16,
+                "target": 0
+            },
+            {
+                "source": 17,
+                "target": 0
+            },
+            {
+                "source": 18,
+                "target": 0
+            },
+            {
+                "source": 19,
+                "target": 0
+            },
+            {
+                "source": 20,
+                "target": 0
+            }
+        ]
+    };
+    let svg = d3.select("svg");
+
+    let width = $(window).width(),
+        height = $(window).height();
+
+
+    let force = d3.layout.force()
+        .gravity(.05)
+        .distance(300)
+        .charge(-200)
+        .size([width, height]);
+
+    d3.json(data, function() {
+        force
+            .nodes(data.nodes)
+            .links(data.links)
+            .start();
+
+        let link = svg.selectAll(".link")
+            .data(data.links)
+            .enter().append("line")
+            .attr("class", "link")
+            .style("stroke-width", function(d) { return Math.sqrt(d.weight); });
+
+        let node = svg.selectAll(".node")
+            .data(data.nodes)
+            .enter().append("g")
+            .attr("class", "node")
+            .call(force.drag);
+
+        node.append("circle")
+            .attr("r","5");
+
+        node.append("text")
+            .attr("dx", 12)
+            .attr("dy", ".35em")
+            .text(function(d) { return d.name });
+
+        force.on("tick", function() {
+            link.attr("x1", function(d) { return d.source.x; })
+                .attr("y1", function(d) { return d.source.y; })
+                .attr("x2", function(d) { return d.target.x; })
+                .attr("y2", function(d) { return d.target.y; });
+
+            node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+        });
+    });
+
+</script>
+</html>

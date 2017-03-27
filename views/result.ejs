@@ -13,10 +13,12 @@
     <div class="searchResults">
         <% for(var i=0; i<result.length; i++) { %>
         <div class="resultWhole" >
-            <div class="resultTitle"><!--TODO:1.if NO reference;2. if 404-->
+            <div class="resultTitle" onclick="appendRef(`<%-result[i]['ref-info']['refd-itemidlist']['itemid']['$']%>`,`<%-result[i]['ref-info']['refd-itemidlist']['itemid']['$']%><%= i%>`)"><!--TODO:1.if NO reference;2. if 404-->
                 <span><%= i+1%>. </span>
                 <%if (result[i]['ref-info'].hasOwnProperty('ref-title')){%>
-                <a href="ref?arg=2-s2.0-<%-result[i]['ref-info']['refd-itemidlist']['itemid']['$']%>"><%-result[i]['ref-info']['ref-title']['ref-titletext'] %></a>
+                <a href="ref?arg=2-s2.0-<%-result[i]['ref-info']['refd-itemidlist']['itemid']['$']%>">
+                    <%-result[i]['ref-info']['ref-title']['ref-titletext'] %>
+                </a>
                 <%}else{%>
                 <a href="ref?arg=2-s2.0-<%-result[i]['ref-info']['refd-itemidlist']['itemid']['$']%>">LACK OF TITLE</a>
                 <%}%><!--Problem: Some response-json is lacking of some objects-->
@@ -30,7 +32,7 @@
                 <span class="authName">LACK OF AUTHOR NAME</span>
                 <%}%>
             </div>
-            <div class="appender" id="append<%= i+1%>"></div>
+            <div class="appender" id="append<%-result[i]['ref-info']['refd-itemidlist']['itemid']['$']%><%= i%>"></div>
             <div class="resultDivide">
                 <hr>
             </div>

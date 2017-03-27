@@ -41,7 +41,7 @@ const fetchDetail = (key,eid,callback)=>{
 };
 
 const parseDetail = (body, callback) => {
-    let ref = JSON.parse(body)["abstracts-retrieval-response"].item["bibrecord"].tail["bibliography"].reference;
+    let ref = JSON.parse(body)["abstracts-retrieval-response"];
     return callback(null, ref);
 };
 

@@ -1,0 +1,107 @@
+#wrapper{
+  position: absolute;
+  width: 320px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -160px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  h1{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 9px;
+    margin: 12px 0;
+    left: 4px;
+  }
+  h2{
+    color: #999;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: .12em;
+    left: 3px;
+  }
+  .search_box {
+    position: relative;
+    margin-top: 45px;
+    .search_box_left {
+      float:left;
+      width:80%;
+      .inputValue {
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 240px;
+        border: none;
+        border-bottom: 1px solid #757575;
+      }
+      .inputValue:focus {
+        outline: none;
+      }
+      .bar {
+        position: relative;
+        display: block;
+        width: 300px;
+      }
+      .bar:before, .bar:after {
+        content: '';
+        height: 2px;
+        width: 0;
+        bottom: 1px;
+        position: absolute;
+        background: #5264AE;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+      }
+      .bar:before {
+        left: 50%;
+      }
+      .bar:after {
+        right: 50%;
+      }
+      label {
+        color: #999;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 5px;
+        top: 10px;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+      }
+
+      /* active state */
+      input:focus ~ label, input:valid ~ label {
+        top: -20px;
+        font-size: 14px;
+        color: #000000;
+      }
+    }
+  }
+    .search_box_right{
+      float:right;
+      width:20%;
+      .searchButton{
+        background-color: #ffffff;
+        border: #999999 solid 1px;
+        color: #000000;
+        padding: 11px 21px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 5px;
+      }
+      .searchButton:hover{
+        background-color: #999999;
+        border: #999999 solid 1px;
+        color: #ffffff;
+      }
+  }
+}

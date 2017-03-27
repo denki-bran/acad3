@@ -59,6 +59,11 @@
 }
 
 .appendBox{
-
+    margin:0.5em 2% 0 2%;
+    padding-top:0.5em;
+    border-color:#000000;
+    border-width:1px;
+    border-style:solid;
 }
+
 
