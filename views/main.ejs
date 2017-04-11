@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>- MAIN -</title>
+    <link href="/css/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="wrapper">
+    <div id='main'>
+        <div class="app-wrapper">
+            <div class="card-wrapper">
+                <div class="search-wrapper">
+                    <search-input :kwd="kwd"></search-input>
+                    <search-select ></search-select>
+                    <hr>
+                </div>
+                <div class="display-wrapper">
+                    <% for(var i=0; i<result.length; i++) { %>
+                        <splice result="<%= i+1%>. <%= result[i]['dc:title'] %>" eid="<%=result[i]['eid']%>"></splice>
+                        <hr>
+                    <%}%>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://unpkg.com/vue/dist/vue.js"></script>
+<script>
+    const getParByName =(name)=>{
+        let url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    Vue.component('search-input',{
+        props:{
+            kwd:String
+        },
+        template:'<div class="search-input-box">' +
+        '<input type="text" class="search-input" v-model:value="kwd" v-on:keyup.enter="submit()"/>' +
+        '<input type="button" class="search-button"  v-on:click="submit()"/>' +
+        '</div>',
+        methods: {
+            submit: function () {
+                let keywords = this.kwd;
+                window.location = `/rs?wd=${keywords}`;
+            },
+
+        }
+    })
+    Vue.component('search-select',{
+        template:'<div class="search-select-box">' +
+        '<div class="search-select-ref "   v-on:click="selectleft" v-bind:class="{ active: isLeftActive }">Ref</div>' +
+        '<div class="search-select-cit" v-on:click="selectright" v-bind:class="{ active: isRightActive }">Cit</div> ' +
+        '</div> ',
+        data:function () {
+            return{
+                isLeftActive: true,
+                isRightActive:false
+            }
+        },
+        methods:{
+            selectleft:function(){
+                if(!this.isLeftActive){
+                    this.isLeftActive = !this.isLeftActive;
+                    this.isRightActive = !this.isRightActive;
+                }
+            },
+            selectright:function(){
+                if(!this.isRightActive){
+                    this.isLeftActive = !this.isLeftActive;
+                    this.isRightActive = !this.isRightActive;
+                }
+            }
+        }
+    })
+    Vue.component('splice',{
+        props:{
+            'result':String,
+            'eid':String
+        },
+        template:'<div class="title-splice" v-on:click="getdetail()">{{result}}</div>',
+        methods:{
+            getdetail:function(){
+                window.location = `/dat/ref?arg=${this.eid}`;
+            }
+        }
+    })
+    let res = new Vue({
+        el:'#main',
+        data:{
+            kwd:getParByName("wd")
+
+        },
+        methods:{
+        }
+    })
+</script>
+</body>
+</html>

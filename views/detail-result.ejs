@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>- <%=result["coredata"]["dc:title"]%> -</title>
+    <link href="/css/main.css" rel="stylesheet" type="text/css"/>
+    <style>
+
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div id='main'>
+        <div class="app-wrapper">
+            <div class="card-wrapper">
+                <div class="search-wrapper">
+                    <search-input></search-input>
+                    <search-select ></search-select>
+                    <hr>
+                </div>
+                <div class="display-wrapper">
+                    <detail-title detitle="<%=result.coredata["dc:title"]%>"></detail-title>
+                    <hr class="hr-style">
+                    <div class="det-authors-box">
+                        <% for(var i=0; i<result["authors"]["author"].length; i++) { %>
+                        <detail-authors gname="<%=result["authors"]["author"][i]["ce:given-name"]%>" sname="<%=result["authors"]["author"][i]["ce:surname"]%>"></detail-authors>
+                        <%if (i<result["authors"]["author"].length-1){%>
+                        <span>|</span>
+                        <%}%>
+                        <%}%>
+                    </div>
+                    <detail-desc desc="<%=result["coredata"]["dc:description"]%>"></detail-desc>
+                </div>
+                <div class="show-other-button-box">
+                    <show-other-titles></show-other-titles>
+                </div>
+            </div>
+            <div class="svg-wrapper"><svg class="svg"></svg></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="//d3js.org/d3.v3.min.js"></script>
+
+<script>
+    const routes={
+
+    }
+    Vue.component('search-input',{
+        props:{
+            kwd:String
+        },
+        template:'<div class="search-input-box">' +
+        '<input type="text" class="search-input" v-on:keyup.enter="submit()"/>' +
+        '<input type="button" class="search-button"  v-on:click="submit()"/>' +
+        '</div>',
+        methods: {
+            submit: function () {
+                let keywords = this.kwd;
+                window.location = `/rs?wd=${keywords}`;
+            },
+
+        }
+    })
+    Vue.component('search-select',{
+        template:'<div class="search-select-box">' +
+        '<div class="search-select-ref "   v-on:click="selectleft" v-bind:class="{ active: isLeftActive }">Ref</div>' +
+        '<div class="search-select-cit" v-on:click="selectright" v-bind:class="{ active: isRightActive }">Cit</div> ' +
+        '</div> ',
+        data:function () {
+            return{
+                isLeftActive: true,
+                isRightActive:false
+            }
+        },
+        methods:{
+            selectleft:function(){
+                if(!this.isLeftActive){
+                    this.isLeftActive = !this.isLeftActive;
+                    this.isRightActive = !this.isRightActive;
+                }
+            },
+            selectright:function(){
+                if(!this.isRightActive){
+                    this.isLeftActive = !this.isLeftActive;
+                    this.isRightActive = !this.isRightActive;
+                }
+            }
+        }
+    })
+    Vue.component('detail-title',{
+        props:{
+            detitle:String
+        },
+        template:'<div class="detail-title">{{detitle}}</div>',
+    })
+    Vue.component('detail-authors',{
+        props:{
+            gname:String,
+            sname:String
+        },
+        template:'<span class="detail-author">{{gname}} {{sname}}</span>',
+    })
+    Vue.component('detail-desc',{
+        props:{
+            desc:String
+        },
+        template:'<div><span class="desc-guide">DESCRIPTION</span>: {{desc}}</div>',
+    })
+    Vue.component('show-other-titles',{
+        template:'<div></div>',
+    })
+    let res = new Vue({
+        el:'#main'
+    })
+    /*d3.js below*/
+    const getURLParameter = (name)=>{
+        return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+    }
+    let json =<%-data%>;
+    let svg = d3.select("svg");
+
+    var width = 960,
+        height = 640
+
+
+    let force = d3.layout.force()
+        .gravity(.05)
+        .distance(300)
+        .charge(-200)
+        .size([width, height]);
+
+
+    var voronoi = d3.geom.voronoi()
+        .x(function(d) { return d.x; })
+        .y(function(d) { return d.y; })
+        .clipExtent([[0, 0], [width, height]]);
+
+    d3.json(json, function() {
+        force
+            .nodes(json.nodes)
+            .links(json.links)
+            .start();
+
+        var link = svg.selectAll(".link")
+            .data(json.links)
+            .enter().append("line")
+            .attr("class", "link");
+
+        var node = svg.selectAll(".node")
+            .data(json.nodes)
+            .enter().append("g")
+            .attr("class", "node")
+            .call(force.drag)
+            .on("click",function(d){
+                if(d.eid!=null){
+                    window.location = `/dat?arg=${d.eid}`;
+                }
+            });
+
+        var circle = node.append("circle")
+            .attr("r", 4.5);
+
+        var label = node.append("text")
+            .attr("dy", ".35em")
+            .text(function(d) { return d.name; });
+
+        var cell = node.append("path")
+            .attr("class", "cell");
+
+        force.on("tick", function() {
+            cell
+                .data(voronoi(json.nodes))
+                .attr("d", function(d) { return d.length ? "M" + d.join("L") : null; });
+
+            link
+                .attr("x1", function(d) { return d.source.x; })
+                .attr("y1", function(d) { return d.source.y; })
+                .attr("x2", function(d) { return d.target.x; })
+                .attr("y2", function(d) { return d.target.y; });
+
+            circle
+                .attr("cx", function(d) { return d.x; })
+                .attr("cy", function(d) { return d.y; });
+
+            label
+                .attr("x", function(d) { return d.x + 8; })
+                .attr("y", function(d) { return d.y; });
+        });
+    });
+</script>
+</body>
+</html>

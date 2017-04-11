@@ -57,7 +57,3 @@ const detail = (key,eid,callback)=>{
 };
 
 module.exports = detail;
-
-/*
- * in return json, the mew eid is 2-s2.0- {tail-bibliography-reference-ref-info-refd-itemidlist-$}
- * */

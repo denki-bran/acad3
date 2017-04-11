@@ -44,27 +44,8 @@ app.get('/atest',  (req, res)=> {
     res.render('ajaxTest.ejs');
 });
 
-// app.get('/ref',  (req, res)=> {
-//     doi =req.query.doi;
-//     getEid(doi,key,(errGet,eid)=>{
-//         if (errGet) {
-//             return console.log(error);
-//         }
-//         detail(key,eid,(errDetail,resDetail)=>{
-//             console.log(resDetail);
-//             res.render('result.ejs',{result:resDetail});
-//         });
-//     });
-// });
-
 app.get('/satest', function (req, res) {
-    var superagent = require('superagent');
-    var url=`https://api.elsevier.com/content/abstract/eid:${req.query.eid}?httpAccept=application%2Fjson&apiKey=5c8ccee1796b0de95a022f90fcf8ad1c`;
-    var sreq = superagent.get(url);
-    sreq.pipe(res);
-    sreq.on('end', function(){
-        console.log('done');
-    });
+    res.render('d3t.ejs');
 });
 
 app.get('/ref',  (req, res)=> {
@@ -96,8 +77,17 @@ app.get('/ref',  (req, res)=> {
     else{}
 });
 
+app.get('/rs',(req,res)=>{
+    let kwd =req.query.wd;
+    kwd=kwd.replace(/ /g,"+");
+    console.log(kwd);
+    kwdRes(key,kwd,(errDetail,resDetail)=>{
+        res.render('main.ejs',{result:resDetail});
+    });
 
-app.get('/cit',  (req, res)=> {
+});
+
+app.get('/dat/cit',  (req, res)=> {
     let doi =req.query.doi;
     getEid(doi,key,(errGet,eid)=>{
         if (errGet) {
@@ -109,16 +99,52 @@ app.get('/cit',  (req, res)=> {
     });
 });
 
-app.get('/rs',(req,res)=>{
-    kwd =req.query.wd;
-    kwd=kwd.replace(/ /g,"+");
-    console.log(kwd);
-    kwdRes(key,kwd,(errDetail,resDetail)=>{
-        res.render('kwd-res.ejs',{result:resDetail});
-    });
+
+app.get('/dat/ref',(req,res)=>{
+    arg =req.query.arg;
+    let eidReg = /2-s2.0-\d+/;
+    let doiReg =/10\.[^\s\/]+\/[^\s]+/;
+    if (doiReg.test(arg)){
+        getEid(arg,key,(errGet,eid)=>{
+            if (errGet) {
+                return console.log(error);
+            }
+            detail(key,eid,(errDetail,resDetail)=>{
+                let middata=trans(resDetail);
+                if (middata==null){
+                    res.redirect(404,'/404');
+                }
+                else{
+                    res.render('detail-result.ejs',
+                        {
+                            result:resDetail,
+                            data:trans(resDetail)
+                        });
+                }
+            });
+        });
+    }
+    else if(eidReg.test(arg)){
+        detail(key,arg,(errDetail,resDetail)=>{
+            console.log(resDetail);
+            if(resDetail===null){
+                res.redirect(404,'/404');
+            }
+            let middata=trans(resDetail);
+            if (middata==null){
+                res.redirect(404,'/404');
+            }
+            else{
+                res.render('detail-result.ejs',
+                    {
+                        result:resDetail,
+                        data:trans(resDetail)
+                    });
+            }
+        });
+    }
 
 });
-
 app.get('/404',  (req, res)=> {
     res.render('404.ejs');
 });
@@ -132,8 +158,7 @@ app.get('/d3t',  (req, res)=> {
                 return console.log(error);
             }
             detail(key,eid,(errDetail,resDetail)=>{
-                let newJson=trans(resDetail);
-                res.render('d3t.ejs',{result:newJson});
+                res.render('d3t.ejs',{result:resDetail});
             });
         });
     }
@@ -144,8 +169,7 @@ app.get('/d3t',  (req, res)=> {
                 res.redirect(301,'/404');
             }
             else{
-                let newJson=trans(resDetail);
-                res.render('d3t.ejs',{result:newJson});
+                res.render('d3t.ejs',{result:resDetail});
             }
         });
     }
